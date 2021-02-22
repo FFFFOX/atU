@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI档案馆</title>
+    <link rel="icon" href="./source/icon.png" type="image/x-icon" />
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/page2.css" />
+    <link rel="stylesheet" type="text/css" href="./css/css.css" />
+
+
+    <!-- 文本 -->
+    <style>
+        #canvas {
+            position: fixed;
+            z-index: -100;
+        }
+    </style>
+
+</head>
+
+
+
+
+
+<body bgcolor="#000000">
+
+
+
+    <script type="text/javascript" src="./js/net.js"></script>
+
+    <div id='mydiv'>
+
+
+        <div class="music">
+            <audio muted src="./source/C418 - Alpha.mp3" autoplay="autoplay" controls="controls"> </audio>
+        </div>
+        <center>
+            <a href="./index.html" style="color: floralwhite;">
+                <button class="back">返回上页</button>
+            </a>
+        </center>
+
+
+
+        <center>
+
+            <table border="0" class="table">
+                <tr>
+                    <td>
+                        <a href="./AI_intro.html" style="color: floralwhite;">
+                            <center><button class="button1">什么是AI</button></center>
+                    </td>
+                    <td>
+                        <a href="./Al_events.html" style="color: floralwhite;">
+                            <center><button class="button1">AI大事记</button></center>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="./Al_apply.html" style="color: floralwhite;">
+                            <center><button class="button1">AI应用</button></center>
+                    </td>
+                    <td>
+                        <a href="./AI_future.html" style="color: floralwhite;">
+                            <center><button class="button1">AI前景</button></center>
+                    </td>
+                </tr>
+            </table>
+        </center>
+
+
+        <div class="footer">
+            <center>
+                Created by LC
+            </center>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        window.onload = function() {
+            //配置
+            var config = {
+                vx: 1, //小球x轴速度,正为右，负为左
+                vy: 1, //小球y轴速度
+                height: 2, //小球高宽，其实为正方形，所以不宜太大
+                width: 2,
+                count: 200, //点个数
+                color: "100, 100, 100", //点颜色
+                stroke: "100,100,100", //线条颜色
+
+                dist: 6000, //点吸附距离
+                e_dist: 200, //鼠标吸附加速距离
+                max_conn: 10 //点到点最大连接数
+            }
+
+            //调用
+            CanvasParticle(config);
+        }
+    </script>
+
+
+
+</body>
+
+
+
+
+</html>

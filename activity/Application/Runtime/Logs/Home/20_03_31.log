@@ -1,0 +1,45 @@
+[ 2020-03-31T10:04:25+08:00 ] ::1 /foods/Index/getFoodsBySid?Sid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026571s ]
+SQL: select * from foods where sid=1 [ RunTime:0.0142s ]
+SQL: select title from shop where sid=1 [ RunTime:0.0135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019212s ]
+
+[ 2020-03-31T10:04:48+08:00 ] ::1 /foods/Index/getOrder?nickName=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0783s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="test" )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0671s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='1' )  [ RunTime:0.0007s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='2' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2020-03-31T10:05:39+08:00 ] ::1 /foods/Index/getOrder?nickName=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0576s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="test" )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0188s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='1' )  [ RunTime:0.0004s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='2' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+

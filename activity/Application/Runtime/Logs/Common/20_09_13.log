@@ -1,0 +1,15 @@
+[ 2020-09-13T21:26:58+08:00 ] 192.168.1.105 /activity/.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2020-09-13T21:28:06+08:00 ] 192.168.1.105 /activity/undefined.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2020-09-13T21:40:37+08:00 ] fe80::fdf3:6976:3edb:2ee4 /activity/images/undefined.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+

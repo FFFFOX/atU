@@ -1,0 +1,147 @@
+[ 2021-02-21T22:09:50+08:00 ] 223.73.150.46 /activity/Index/login?nickname=%E6%B5%81%E8%90%A4&tel=19874416206
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="流萤" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002959s ]
+
+[ 2021-02-21T22:09:53+08:00 ] 223.73.150.46 /activity/Index/getType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `type`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2021-02-21T22:09:53+08:00 ] 223.73.150.46 /activity/Index/getClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: select loc,name from club order by CONVERT(loc USING gbk) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2021-02-21T22:09:54+08:00 ] 223.73.150.46 /activity/Index/queryUser?nickname=%E6%B5%81%E8%90%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="流萤" ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2021-02-21T22:11:27+08:00 ] 223.73.150.46 /activity/Index/setUser?nickname=%E6%B5%81%E8%90%A4&gender=%E5%A5%B3&birth=1992%E5%B9%B41%E6%9C%881%E6%97%A5&tel=19874416206&profession=%E5%BB%BA%E7%AD%91&type=Model%203&carnumber=&clubname=CMX%E2%80%94%E2%80%94%E7%89%B9%E6%96%AF%E6%8B%89%E6%B7%B1%E5%9C%B3%E8%BD%A6%E5%8F%8B%E4%BF%B1%E4%B9%90%E9%83%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: INSERT INTO `users` (`nickname`,`gender`,`birth`,`tel`,`profession`,`type`,`carnumber`,`clubname`) VALUES ('流萤','女','1992年1月1日','19874416206','建筑','Model 3','','CMX——特斯拉深圳车友俱乐部') [ RunTime:0.0133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2021-02-21T22:11:35+08:00 ] 223.73.150.46 /activity/Index/login?nickname=%E6%B5%81%E8%90%A4&tel=19874416206
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="流萤" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="流萤" and tel="19874416206" )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2021-02-21T22:11:35+08:00 ] 223.73.150.46 /activity/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2021-02-21T22:11:42+08:00 ] 223.73.150.46 /activity/Index/getActivity?aid=1&nickname=%E6%B5%81%E8%90%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0070s ]
+SQL: SELECT `club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="流萤" and aid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2021-02-21T22:11:54+08:00 ] 223.73.150.46 /activity/Index/getClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: select loc,name from club order by CONVERT(loc USING gbk) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2021-02-21T22:11:54+08:00 ] 223.73.150.46 /activity/Index/getType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `type`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2021-02-21T22:11:54+08:00 ] 223.73.150.46 /activity/Index/queryUserInfo?nickname=%E6%B5%81%E8%90%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` WHERE ( nickname="流萤" )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+

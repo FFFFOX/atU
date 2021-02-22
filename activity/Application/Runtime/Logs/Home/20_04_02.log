@@ -1,0 +1,80 @@
+[ 2020-04-02T11:08:32+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030544s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0559s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021201s ]
+
+[ 2020-04-02T11:09:04+08:00 ] ::1 /foods/Index/queryAll?nickName=%E8%90%8D%E6%B0%B4%E7%9B%B8%E9%80%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="萍水相逢" ) LIMIT 1   [ RunTime:0.0039s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="萍水相逢" )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2020-04-02T11:09:15+08:00 ] ::1 /foods/Index/getFoodsBySid?Sid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: select * from foods where sid=1 [ RunTime:0.0554s ]
+SQL: select title from shop where sid=1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2020-04-02T11:10:15+08:00 ] ::1 /foods/Index/getFoodsBySid?Sid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: select * from foods where sid=1 [ RunTime:0.0004s ]
+SQL: select title from shop where sid=1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002297s ]
+
+[ 2020-04-02T11:10:22+08:00 ] ::1 /foods/Index/getFoodsBySid?Sid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002993s ]
+SQL: select * from foods where sid=5 [ RunTime:0.0006s ]
+SQL: select title from shop where sid=5 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002045s ]
+
+[ 2020-04-02T15:18:49+08:00 ] ::1 /foods/Index/setAll?nickName=test&address=xx%E8%B7%AF1%E5%8F%B7&cardNum=2222222222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017402s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="test" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `users` SET `address`='xx路1号',`cardNum`='2222222222',`tel`='' WHERE ( nickName="test" ) [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012508s ]
+

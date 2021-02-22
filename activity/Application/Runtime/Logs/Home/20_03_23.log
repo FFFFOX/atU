@@ -1,0 +1,13 @@
+[ 2020-03-23T23:01:39+08:00 ] ::1 /foods/Index/getFoodsBySid?Sid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023116s ]
+SQL: select * from foods where sid=1 [ RunTime:0.0105s ]
+SQL: select title from shop where sid=1 [ RunTime:0.0112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016504s ]
+

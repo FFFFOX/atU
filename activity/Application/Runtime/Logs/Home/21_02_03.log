@@ -1,0 +1,45 @@
+[ 2021-02-03T14:45:40+08:00 ] 116.236.51.201 /activity/Index/login?nickname=%E8%90%8D%E6%B0%B4%E7%9B%B8%E9%80%A2&tel=11111111111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="萍水相逢" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="萍水相逢" and tel="11111111111" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2021-02-03T14:45:40+08:00 ] 116.236.51.201 /activity/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2021-02-03T14:45:43+08:00 ] 116.236.51.201 /activity/Index/getActivity?aid=1&nickname=%E8%90%8D%E6%B0%B4%E7%9B%B8%E9%80%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="萍水相逢" and aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+

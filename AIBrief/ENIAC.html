@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/css.css" />
+    <title>ENIAC计算机</title>
+    <link rel="icon" href="./source/icon.png" type="image/x-icon" />
+
+</head>
+<style>
+    #bgImg {
+        height: 103%;
+        width: 101%;
+        background: url('./source/EniacBack.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: fixed;
+        overflow: scroll;
+        border: #000000;
+    }
+    
+    .outLabel {
+        align-self: center;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        background-color: rgba(121, 121, 121, 0.7);
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .textLabel {
+        align-self: center;
+        background: transparent;
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .titleLabel {
+        align-self: center;
+        background: transparent;
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 70px;
+        text-align: center;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .siri {
+        width: 100%;
+        opacity: 0.7;
+    }
+    
+    .siriText {
+        font-size: 10px;
+    }
+</style>
+
+<body bgcolor="#000000">
+    <div id='bgImg'>
+        <div class="music">
+            <audio muted src="./source/C418 - Alpha.mp3" autoplay="autoplay" controls="controls"> </audio>
+        </div>
+        <center>
+            <a href="./Al_events.html" style="color: floralwhite;">
+                <button class="back">返回上页</button>
+            </a>
+        </center>
+        <center>
+            <div class="outLabel">
+                <center>
+                    <p class="titleLabel">
+                        ENIAC=Electronic Numerical Integrator And Computer
+                        <br> 电子数值积分计算机
+                    </p>
+                    <p class="textLabel">ENIAC是世界上第一台通用计算机。它是图灵完全的电子计算机，能够重新编程，解决各种计算问题。
+
+                        <br><br>ENIAC为美国陆军的弹道研究实验室（BRL）所使用，用于计算火炮的火力表。ENIAC在1946年公布的时候，就被当时的新闻赞誉为“巨脑”。它的计算速度比机电机器提高了一千倍。这是一个飞跃，之前没有任何一台单独的机器达到过这个速度。它的数学能力和通用的可编程能力，令当时的科学家和实业家非常激动。发明它的人为了进一步推广这些新思想，举办了一系列关于计算机体系结构的讲座。
+
+                        <br><br>在二战期间，美国陆军资助了ENIAC的设计和建造。建造合同在1943年6月5日签订，实际的建造在7月以“PX项目”为代号秘密开始，由宾夕法尼亚大学穆尔电气工程学院进行。建造完成的机器在1946年2月14日公布，并于次日在宾夕法尼亚大学正式投入使用。建造这台机器花费了将近五十万美元（考虑通货膨胀，相当于2011年的六百五十万美元）。1946年7月，它被美国陆军军械兵团正式接受。为了翻新和升级存储器，ENIAC在1946年11月9日关闭，并在1947年转移到了马里兰州的阿伯丁试验场。1947年7月，它在那里重新启动，继续工作到1955年10月2日晚上11点45分。
+
+                        <br><br>ENIAC是宾夕法尼亚大学的约翰·莫齐利和J.·Presper·埃克特构思和设计的。协助开发的设计工程师团队包括罗伯特·F·肖（函数表）、朱传榘（除法器/平方-平方根器）、托马斯·凯特·夏普勒斯（主程序器）、阿瑟·伯克斯（乘法器）、哈利·赫斯基（读取器/打印器），还有杰克·戴维斯（累加器）。ENIAC在1987年被评为IEEE里程碑之一。
+
+                        <br><br><br><br>
+                        <img src="./source/Eniac.jpg" class="siri">
+                        <center>
+                            <p class="siriText">ENIAC图片</p>
+                        </center>
+
+                    </p>
+                    <div class="textLabel">
+                        <br><br>ENIAC是模块化计算机，由执行不同功能的独立面板组成。其中二十个模块是累加器，这些累加器不仅能做加减运算，还能存储十位十进制数。当数被调用的时候，它们通过一些通用的总线在这些单元间传递。为了实现高速，面板需要独立完成发送和接受数、计算、储存结果、触发下一个操作，这一系列的操作都不需要任何移动部件。它的多功能性关键在于“分支”的能力——能根据计算结果的符号触发不同的操作。
+
+                        <br><br>除了速度之外，ENIAC最引人注目的就是它的体积和复杂性。ENIAC包含了17468个电子管、7200个晶体二极管、1500个继电器、10000个电容器，还有大约五百万个手工焊接头。它的重量达27吨（30美吨），体积大约是2.4m×6m×30.48m（8×3×100英尺），占地167平方米（1800平方英尺），重30英吨，耗电150千瓦[11][12]（导致有传言说，每当这台计算机启动的时候，费城的灯都变暗了）。IBM的卡片阅读器用于输入，打卡器用于输出。使用IBM会计机（比如IBM
+                        405）可将这些卡片用于离线产生输出。
+
+                        <br><br>ENIAC使用十位环形计数器存储数字，每个数字使用36个电子管，其中10个是双三极管，它们组成了环形计数器的触发器。算数运算通过对环形计数器脉冲的计数进行，如果计数器被脉冲“环绕”了，则产生一个进位脉冲。“环绕”的思想在电子领域模拟了机械加法机数字滚轮的操作。ENIAC有20个带符号的十位累加器，它们使用10的补码表示方法，每秒可在它们和数字源（例如另一个累加器，或者常数传送器）进行5000次简单加减操作。因为几个累加器可以同时运行，所以潜在的速度峰值由于这种并发操作而比上述数字高得多。
+
+                        <br><br>通过将两个累加器用线连接起来，可以实现双精度计算，不过累加器进行电路时序控制，这阻止了三个或更多的累加器被连接起来让精度更高的扩充可能。ENIAC中的四个累加器被一个特殊的“乘法器”单元所控制，每秒可进行385次乘法操作。还有五个累加器被一个特殊的“除法器/平方-平方根器”单元，每秒可进行四十次除法运算或三次求平方根运算。
+
+                        <br><br>ENIAC中其他九个单元是“初始化单元”（启动和停止机器）、“循环单元”（用于同步其他单元）、“主程序器”（控制“循环”序列）、“读取器”（控制IBM打孔卡片读取器）、“打印器”（控制IBM打孔卡片的打孔）、“常数传送器”，还有三个“函数表”。
+                    </div>
+
+                </center>
+
+            </div>
+        </center>
+        <div class="footer">
+            <center>
+                Created by LC
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+[ 2020-04-14T08:37:29+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.061396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031146s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012933s ]
+

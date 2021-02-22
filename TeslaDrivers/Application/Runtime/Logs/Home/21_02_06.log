@@ -1,0 +1,1760 @@
+[ 2021-02-06T00:04:50+08:00 ] 36.99.136.130 /TeslaDrivers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2021-02-06T00:04:54+08:00 ] 36.99.136.135 /TeslaDrivers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2021-02-06T00:04:57+08:00 ] 36.99.136.135 /TeslaDrivers/assets/images/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+ERR: 无法加载控制器:Assets
+
+[ 2021-02-06T00:04:59+08:00 ] 36.99.136.135 /TeslaDrivers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2021-02-06T00:05:07+08:00 ] 36.99.136.135 /TeslaDrivers/assets/images/1.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载控制器:Assets
+
+[ 2021-02-06T02:48:56+08:00 ] 111.7.100.26 /TeslaDrivers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2021-02-06T04:37:27+08:00 ] 111.7.100.27 /TeslaDrivers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2021-02-06T08:01:52+08:00 ] 36.99.136.134 /TeslaDrivers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2021-02-06T10:06:40+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2021-02-06T10:06:41+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2021-02-06T10:06:47+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0006s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2021-02-06T10:06:52+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=2&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="2" )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='2' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2021-02-06T10:06:55+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2021-02-06T10:07:51+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2021-02-06T10:09:01+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2021-02-06T10:09:02+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2021-02-06T10:09:03+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2021-02-06T10:10:24+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2021-02-06T10:10:25+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2021-02-06T10:10:26+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0005s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2021-02-06T10:11:27+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=2&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="2" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2021-02-06T10:11:35+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2021-02-06T10:15:05+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2021-02-06T10:15:06+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2021-02-06T10:15:07+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0005s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2021-02-06T10:16:28+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2021-02-06T10:16:28+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2021-02-06T10:18:01+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0005s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2021-02-06T10:19:43+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2021-02-06T10:22:06+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=76&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="76" )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='76' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=76 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=76 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2021-02-06T10:22:09+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=78&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="78" )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='78' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=78 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=78 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2021-02-06T10:22:12+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=43&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="43" )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0005s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='43' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=43 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=43 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2021-02-06T10:22:17+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=5&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="5" )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='5' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=5 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=5 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2021-02-06T10:23:47+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2021-02-06T10:24:18+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=78&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="78" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0005s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='78' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=78 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=78 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2021-02-06T10:24:43+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2021-02-06T10:24:44+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2021-02-06T10:24:45+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2021-02-06T10:24:48+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=78&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="78" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='78' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=78 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=78 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2021-02-06T10:26:36+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2021-02-06T10:26:37+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2021-02-06T10:26:38+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0005s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2021-02-06T10:28:40+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `type`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2021-02-06T10:28:40+08:00 ] 180.162.163.13 /TeslaDrivers/Index/queryUserInfo?nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` WHERE ( nickname="浩然" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2021-02-06T10:28:40+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: select loc,name from club order by CONVERT(loc USING gbk) [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2021-02-06T10:28:50+08:00 ] 180.162.163.13 /TeslaDrivers/Index/modifyUser?nickname=%E6%B5%A9%E7%84%B6&gender=%E7%94%B7&birth=&tel=12345678900&profession=&type=&carnumber=&clubname=%E7%89%B9%E6%96%AF%E6%8B%89%20Model%20X%20%E5%8C%97%E4%BA%AC%E8%BD%A6%E5%8F%8B%E4%BF%B1%E4%B9%90%E9%83%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: UPDATE `users` SET `gender`='男',`birth`='',`tel`='12345678900',`profession`='',`type`='',`carnumber`='',`clubname`='特斯拉 Model X 北京车友俱乐部' WHERE ( nickname="浩然" ) [ RunTime:0.0092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2021-02-06T10:28:52+08:00 ] 180.162.163.13 /TeslaDrivers/Index/modifyUser?nickname=%E6%B5%A9%E7%84%B6&gender=%E7%94%B7&birth=&tel=12345678900&profession=&type=&carnumber=&clubname=%E7%89%B9%E6%96%AF%E6%8B%89%20Model%20X%20%E5%8C%97%E4%BA%AC%E8%BD%A6%E5%8F%8B%E4%BF%B1%E4%B9%90%E9%83%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: UPDATE `users` SET `gender`='男',`birth`='',`tel`='12345678900',`profession`='',`type`='',`carnumber`='',`clubname`='特斯拉 Model X 北京车友俱乐部' WHERE ( nickname="浩然" ) [ RunTime:0.0094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2021-02-06T10:28:55+08:00 ] 180.162.163.13 /TeslaDrivers/Index/modifyUser?nickname=%E6%B5%A9%E7%84%B6&gender=%E7%94%B7&birth=&tel=12345678900&profession=&type=&carnumber=&clubname=%E7%89%B9%E6%96%AF%E6%8B%89%20Model%20X%20%E5%8C%97%E4%BA%AC%E8%BD%A6%E5%8F%8B%E4%BF%B1%E4%B9%90%E9%83%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: UPDATE `users` SET `gender`='男',`birth`='',`tel`='12345678900',`profession`='',`type`='',`carnumber`='',`clubname`='特斯拉 Model X 北京车友俱乐部' WHERE ( nickname="浩然" ) [ RunTime:0.0088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2021-02-06T10:29:58+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2021-02-06T10:30:30+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2021-02-06T10:30:31+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2021-02-06T10:30:33+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2021-02-06T10:30:38+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getClub
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: select loc,name from club order by CONVERT(loc USING gbk) [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2021-02-06T10:30:38+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `type`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2021-02-06T10:30:38+08:00 ] 180.162.163.13 /TeslaDrivers/Index/queryUserInfo?nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `users` WHERE ( nickname="浩然" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2021-02-06T10:31:15+08:00 ] 180.162.163.13 /TeslaDrivers/Index/modifyUser?nickname=%E6%B5%A9%E7%84%B6&gender=%E7%94%B7&birth=&tel=12345678900&profession=&type=&carnumber=&clubname=%E6%91%A9%E7%99%BB%E4%BC%9A%E2%80%94%E2%80%94%E7%89%B9%E6%96%AF%E6%8B%89%E8%BD%A6%E5%8F%8B%E4%BF%B1%E4%B9%90%E9%83%A8(%E5%8E%A6%E9%97%A8)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: UPDATE `users` SET `gender`='男',`birth`='',`tel`='12345678900',`profession`='',`type`='',`carnumber`='',`clubname`='摩登会——特斯拉车友俱乐部(厦门)' WHERE ( nickname="浩然" ) [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2021-02-06T10:31:19+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2021-02-06T10:31:22+08:00 ] 180.162.163.13 /TeslaDrivers/Index/setUserEnrol?aid=1&nickname=%E6%B5%A9%E7%84%B6&tel=12345678900&clubname=%E6%91%A9%E7%99%BB%E4%BC%9A%E2%80%94%E2%80%94%E7%89%B9%E6%96%AF%E6%8B%89%E8%BD%A6%E5%8F%8B%E4%BF%B1%E4%B9%90%E9%83%A8(%E5%8E%A6%E9%97%A8)&act=%E6%8E%A2%E9%99%A9%E6%9C%88%E7%90%83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0012s ]
+SQL: INSERT INTO `userenrol` (`nickname`,`tel`,`act`,`aid`,`clubname`,`date`) VALUES ('浩然','12345678900','探险月球','1','摩登会——特斯拉车友俱乐部(厦门)','2021-02-06 10:31:22') [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2021-02-06T10:31:25+08:00 ] 180.162.163.13 /TeslaDrivers/Index/cancelUserEnrol?nickname=%E6%B5%A9%E7%84%B6&act=%E6%8E%A2%E9%99%A9%E6%9C%88%E7%90%83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0004s ]
+SQL: DELETE FROM `userenrol` WHERE ( nickname="浩然" and act="探险月球" ) [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2021-02-06T10:31:26+08:00 ] 180.162.163.13 /TeslaDrivers/Index/setUserEnrol?aid=1&nickname=%E6%B5%A9%E7%84%B6&tel=12345678900&clubname=%E6%91%A9%E7%99%BB%E4%BC%9A%E2%80%94%E2%80%94%E7%89%B9%E6%96%AF%E6%8B%89%E8%BD%A6%E5%8F%8B%E4%BF%B1%E4%B9%90%E9%83%A8(%E5%8E%A6%E9%97%A8)&act=%E6%8E%A2%E9%99%A9%E6%9C%88%E7%90%83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0005s ]
+SQL: INSERT INTO `userenrol` (`nickname`,`tel`,`act`,`aid`,`clubname`,`date`) VALUES ('浩然','12345678900','探险月球','1','摩登会——特斯拉车友俱乐部(厦门)','2021-02-06 10:31:26') [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2021-02-06T10:33:27+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2021-02-06T10:34:02+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0005s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2021-02-06T10:36:02+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2021-02-06T10:36:03+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2021-02-06T10:36:04+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2021-02-06T10:36:47+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2021-02-06T10:36:48+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2021-02-06T10:36:49+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2021-02-06T10:38:36+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2021-02-06T10:38:37+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2021-02-06T10:38:38+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2021-02-06T10:42:23+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2021-02-06T10:42:23+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2021-02-06T10:42:24+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2021-02-06T10:44:00+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2021-02-06T10:44:00+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2021-02-06T10:44:02+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2021-02-06T10:46:05+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2021-02-06T10:46:06+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2021-02-06T10:47:25+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2021-02-06T10:47:25+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2021-02-06T10:47:27+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2021-02-06T10:48:49+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2021-02-06T10:48:50+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2021-02-06T10:48:51+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0005s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2021-02-06T10:49:27+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2021-02-06T10:49:27+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2021-02-06T10:49:34+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0005s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2021-02-06T10:49:38+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=78&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="78" )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='78' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=78 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=78 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2021-02-06T10:49:53+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2021-02-06T10:49:54+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2021-02-06T10:50:25+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2021-02-06T10:52:02+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2021-02-06T10:52:02+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2021-02-06T10:53:32+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2021-02-06T10:53:33+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2021-02-06T10:53:34+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2021-02-06T10:55:14+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2021-02-06T10:57:15+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2021-02-06T10:57:40+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2021-02-06T10:57:41+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2021-02-06T10:57:42+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2021-02-06T10:58:38+08:00 ] 180.162.163.13 /TeslaDrivers/Index/login?nickname=%E6%B5%A9%E7%84%B6&tel=12345678900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickname="浩然" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `clubname`,`tel` FROM `users` WHERE ( nickname="浩然" and tel="12345678900" )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2021-02-06T10:58:39+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2021-02-06T10:58:40+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2021-02-06T10:58:50+08:00 ] 180.162.163.13 /TeslaDrivers/Index/getActivity?aid=1&nickname=%E6%B5%A9%E7%84%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity` WHERE ( aid="1" )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `enroll` [ RunTime:0.0004s ]
+SQL: SELECT `activity`,`clubloc`,`club` FROM `enroll` WHERE ( 1=1 AND aid='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `userenrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `userenrol` WHERE ( nickname="浩然" and aid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2021-02-06T13:10:59+08:00 ] 111.7.100.27 /TeslaDrivers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2021-02-06T13:11:05+08:00 ] 111.7.100.25 /TeslaDrivers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2021-02-06T16:59:35+08:00 ] 36.99.136.140 /TeslaDrivers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2021-02-06T20:44:31+08:00 ] 36.99.136.141 /TeslaDrivers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2021-02-06T20:45:49+08:00 ] 36.99.136.142 /TeslaDrivers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2021-02-06T23:42:32+08:00 ] 111.7.100.23 /TeslaDrivers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+

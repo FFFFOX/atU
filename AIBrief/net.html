@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/css.css" />
+    <title>人工神经网络</title>
+    <link rel="icon" href="./source/icon.png" type="image/x-icon" />
+
+</head>
+<style>
+    #bgImg {
+        height: 103%;
+        width: 101%;
+        background: url('./source/EniacBack.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: fixed;
+        overflow: scroll;
+        border: #000000;
+    }
+    
+    .outLabel {
+        align-self: center;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        background-color: rgba(121, 121, 121, 0.2);
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .textLabel {
+        align-self: center;
+        background: transparent;
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .titleLabel {
+        align-self: center;
+        background: transparent;
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 70px;
+        text-align: center;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .siri {
+        width: 80%;
+        opacity: 0.;
+    }
+    
+    .siriText {
+        font-size: 10px;
+    }
+    
+    #canvas {
+        position: fixed;
+        z-index: -2;
+    }
+    
+    .Lisptable {
+        width: 80%;
+    }
+    
+    .lastText {
+        width: 80%;
+        text-align: left;
+    }
+    
+    .lastTitle {
+        font-size: 40px;
+        width: 80%;
+        text-align: left;
+    }
+</style>
+
+
+
+<body bgcolor="#000000" id="mydiv">
+
+    <script type="text/javascript" color="0,0,0" opacity='0.7' zIndex="-2" count="100" src="./js/js.js">
+        function async_load() {
+
+            i.scrolling = "no";
+            i.frameborder = "0";
+            i.border = "0";
+            i.setAttribute("frameborder", "0", 0);
+            i.width = "100px";
+            i.height = "200px";
+            document.getElementById("hub_iframe").appendChild(i);
+        }
+
+        if (window.addEventListener) {
+            window.addEventListener("load", async_load, false);
+        } else if (window.attachEvent) {
+            window.attachEvent("onload", async_load);
+        } else {
+            window.onload = async_load;
+        }
+    </script>
+    <div class="music">
+        <audio muted src="./source/C418 - Alpha.mp3" autoplay="autoplay" controls="controls"> </audio>
+    </div>
+    <center>
+        <a href="./Al_events.html" style="color: floralwhite;">
+            <button class="back">返回上页</button>
+        </a>
+    </center>
+    <center>
+        <div class="outLabel">
+            <center>
+                <p class="titleLabel">
+                    人工神经网络
+                    <br>Artificial Neural Network,ANN
+                </p>
+                <p class="textLabel">
+                    人工神经网络（英语：Artificial Neural Network，ANN），简称神经网络（Neural Network，NN）或类神经网络，在机器学习和认知科学领域，是一种模仿生物神经网络（动物的中枢神经系统，特别是大脑）的结构和功能的数学模型或计算模型，用于对函数进行估计或近似。神经网络由大量的人工神经元联结进行计算。大多数情况下人工神经网络能在外界信息的基础上改变内部结构，是一种自适应系统，通俗的讲就是具备学习功能。现代神经网络是一种非线性统计性数据建模工具，神经网络通常是通过一个基于数学统计学类型的学习方法（Learning
+                    Method）得以优化，所以也是数学统计学方法的一种实际应用，通过统计学的标准数学方法我们能够得到大量的可以用函数来表达的局部结构空间，另一方面在人工智能学的人工感知领域，我们通过数学统计学的应用可以来做人工感知方面的决定问题（也就是说通过统计学的方法，人工神经网络能够类似人一样具有简单的决定能力和简单的判断能力），这种方法比起正式的逻辑学推理演算更具有优势。
+
+                    <br> 和其他机器学习方法一样，神经网络已经被用于解决各种各样的问题，例如机器视觉和语音识别。这些问题都是很难被传统基于规则的编程所解决的。
+                    <br><br><br><br>
+                    <center>
+                        <img src="./source/TF.jpeg" class="siri">
+                    </center>
+
+                    <center>
+                        <p class="siriText">TensorFlow, 深度学习框架</p>
+                    </center>
+                    <p class="lastTitle">背景:</p>
+                    <p class="lastText">
+                        <br>对人类中枢神经系统的观察启发了人工神经网络这个概念。在人工神经网络中，简单的人工节点，称作神经元（neurons），连接在一起形成一个类似生物神经网络的网状结构。
+
+                        <br><br>人工神经网络目前没有一个统一的正式定义。不过，具有下列特点的统计模型可以被称作是“神经化”的：
+
+                        <br>具有一组可以被调节的权重（被学习算法调节的数值参数）
+                        <br>可以估计输入数据的非线性函数关系
+                        <br>这些可调节的权重可以被看做神经元之间的连接强度。
+
+                        <br><br>人工神经网络与生物神经网络的相似之处在于，它可以集体地、并行地计算函数的各个部分，而不需要描述每一个单元的特定任务。神经网络这个词一般指统计学、认知心理学和人工智能领域使用的模型，而控制中央神经系统的神经网络属于理论神经科学和计算神经科学。
+
+                        <br><br>在神经网络的现代软件实现中，被生物学启发的那种方法已经很大程度上被抛弃了，取而代之的是基于统计学和信号处理的更加实用的方法。在一些软件系统中，神经网络或者神经网络的一部分（例如人工神经元）是大型系统中的一个部分。这些系统结合了适应性的和非适应性的元素。虽然这种系统使用的这种更加普遍的方法更适宜解决现实中的问题，但是这和传统的连接主义人工智能已经没有什么关联了。不过它们还有一些共同点：非线性、分布式、并行化，局部性计算以及适应性。从历史的角度讲，神经网络模型的应用标志着二十世纪八十年代后期从高度符号化的人工智能（以用条件规则表达知识的专家系统为代表）向低符号化的机器学习（以用动力系统的参数表达知识为代表）的转变。。
+                    </p>
+                    <p class="lastTitle" id="catg"><br><br> 种类:</p>
+                    <p class="lastText">
+                        <br>人工神经网络分类为以下两种：
+
+                        <br><br>1.依学习策略（Algorithm）分类主要有：
+
+                        <br>监督式学习网络（Supervised Learning Network）为主
+                        <br>无监督式学习网络（Unsupervised Learning Network）
+                        <br>混合式学习网络（Hybrid Learning Network）
+                        <br>联想式学习网络（Associate Learning Network）
+                        <br>最适化学习网络（Optimization Application Network）
+                        <br><br>2.依网络架构（Connectionism）分类主要有：
+
+                        <br>前馈神经网络（Feed Forward Network）
+                        <br>循环神经网络（Recurrent Network）
+                        <br>强化式架构（Reinforcement Network）
+                    </p>
+                    <center>
+                        <img src="./source/DL.jpg" class="siri">
+                    </center>
+
+                    <center>
+                        <p class="siriText">深度学习</p>
+                    </center>
+
+
+
+            </center>
+
+
+
+        </div>
+    </center>
+    <div class="footer">
+        <center>
+            Created by LC
+        </center>
+    </div>
+
+
+</body>
+
+</html>

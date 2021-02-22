@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI应用</title>
+    <link rel="icon" href="./source/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="./css/css.css" />
+    <link rel="stylesheet" type="text/css" href="./css/apply.css" />
+</head>
+<style>
+    #bgImg {
+        height: 103%;
+        width: 101%;
+        background: url('./source/apply.png') no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: fixed;
+        overflow: scroll;
+        border: #000000;
+    }
+    
+    .table {
+        border: 0ch;
+        padding-top: 8.5%;
+        padding-bottom: 10%;
+    }
+    
+    .outLabel {
+        align-self: center;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        background-color: rgba(121, 121, 121, 0.7);
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .textLabel {
+        align-self: center;
+        background: transparent;
+        height: 100%;
+        width: 60%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .titleLabel {
+        align-self: center;
+        background: transparent;
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 70px;
+        text-align: center;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .siri {
+        width: 30%;
+        opacity: 0.7;
+    }
+    
+    .siriText {
+        font-size: 10px;
+    }
+    
+    .myModal {
+        max-width: 600px;
+        padding: 1em;
+        background: #eee;
+        display: none;
+        position: relative;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+    }
+    /*关闭按钮*/
+    
+    .item-close {
+        cursor: pointer;
+        right: 5px;
+        top: 5px;
+        position: absolute;
+        background: #222;
+        color: #fff;
+        border-radius: 100%;
+        font-size: 14px;
+        height: 24px;
+        line-height: 22px;
+        text-align: center;
+        width: 24px;
+    }
+</style>
+
+<body bgcolor="000000">
+    <div id="bgImg">
+        <div class="music">
+            <audio muted src="./source/C418 - Alpha.mp3" autoplay="autoplay" controls="controls"> </audio>
+        </div>
+        <center>
+            <a href="./D_2.html" style="color: floralwhite;">
+                <button class="back">返回上页</button>
+            </a>
+        </center>
+        <center>
+            <p class="titleLabel"><br>基本应用</p>
+            <p class="textLabel">
+                <br>人工智能基本的应用可分为四大部分：
+
+                <br><br>1. 感知能力（Perception) 指的是人类透过感官所收到环境的刺激，察觉消息的能力，简单的说就是人类五官的看、听、说、读、写等能力，学习人类的感知能力是AI目前主要的焦点之一，包括：
+
+                <br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; “看”：电脑视觉（Computer Vision）、图像识别（Image Recognition）、人脸识别（Face Recognition）、对象侦测（Object Detection）。
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;“听”：语音识别（Sound Recognition）。
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;“读”：自然语言处理（Natural Language Processing，NLP）、语音转换文本（Speech-to-Text）。
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;“写”：机器翻译（Machine Translation）。
+                <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;“说”：语音生成（Sound Generation）、文本转换语音（Text-to-Speech）。
+                <br><br>2. 认知能力（Cognition）指的是人类透过学习、判断、分析等等心理活动来了解消息、获取知识的过程与能力，对人类认知的模仿与学习也是目前AI第二个焦点领域，主要包括：
+
+                <br><br>3. 分析识别能力：例如医学图像分析、产品推荐、垃圾邮件识别、法律案件分析、犯罪侦测、信用风险分析、消费行为分析等。
+                <br><br>4. 预测能力：例如AI运行的预防性维修（Predictive Maintenance）、智能天然灾害预测与防治。
+                <br><br>5. 判断能力：例如AI下围棋、自动驾驶车、健保诈欺判断、癌症判断等。
+                <br><br>6. 学习能力：例如机器学习、深度学习、增强式学习等等各种学习方法。
+                <br><br>7. 创造力（Creativity）指的是人类产生新思想，新发现，新方法，新理论，新设计，创造新事物的能力，它是结合知识、智力、能力、个性及潜意识等各种因素优化而成，这个领域目前人类仍遥遥领先AI，但AI也试着急起直追，主要领域包括：AI作曲、AI作诗、AI小说、AI绘画、AI设计等。
+
+                <br><br>8. 智能（Wisdom） 指的是人类深刻了解人、事、物的真相，能探求真实真理、明辨是非，指导人类可以过着有意义生活的一种能力，这个领域牵涉人类自我意识、自我认知与价值观，是ˋ目前AI尚未触及的一部分，也是人类最难以模仿的一个领域。
+            </p>
+            <p class="titleLabel"><br><br><br><br> 实际应用</p>
+            <table border="0" class="table">
+                <tr>
+                    <td>
+                        <a href="./net.html#catg" style="color: floralwhite;">
+                            <center>
+                                <button class="button1">深度学习</button>
+                            </center>
+                    </td>
+                    <td>
+                        <a href="./AI_future.html#vis" style="color: floralwhite;">
+                            <center><button class="button2">计算机视觉</button></center>
+                    </td>
+                    <td>
+                        <a href="./Al_apply.html" style="color: floralwhite;">
+                            <center><button class="button3">语音识别</button></center>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="./AI_intro.html#assis" style="color: floralwhite;">
+                            <center><button class="button4">虚拟个人助理</button></center>
+                    </td>
+                    <td>
+                        <a href="./AI_future.html#NLP" style="color: floralwhite;">
+                            <center><button class="button5">语言处理</button></center>
+                    </td>
+                    <td>
+                        <a href="./AI_intro.html#reco" style="color: floralwhite;">
+                            <center><button class="button6">引擎推荐</button></center>
+                    </td>
+                </tr>
+            </table>
+        </center>
+
+        <div class="footer">
+            <center>
+                Created by LC
+            </center>
+        </div>
+    </div>
+
+</body>
+
+</html>

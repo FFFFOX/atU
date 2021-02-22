@@ -1,0 +1,190 @@
+[ 2020-02-23T09:36:04+08:00 ] ::1 /foods/Index/queryAll?nickName=%E6%96%B0%E7%94%A8%E6%88%B7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018246s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="新用户" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `users` (`nickName`) VALUES ('新用户') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011366s ]
+
+[ 2020-02-23T09:43:48+08:00 ] ::1 /foods/Index/queryUserInfo?nickName=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="test" )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2020-02-23T09:44:13+08:00 ] ::1 /foods/Index/queryUserInfo?nickName=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="test" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2020-02-23T09:47:01+08:00 ] ::1 /foods/Index/queryAll?nickName=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="test" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="test" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2020-02-23T09:50:08+08:00 ] ::1 /foods/Index/setAll?nickName=%E6%96%B0%E7%94%A8%E6%88%B7&address=xx%E8%B7%AF1%E5%8F%B7&cardNum=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="新用户" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `users` SET `address`='xx路1号',`cardNum`='111',`tel`='' WHERE ( nickName="新用户" ) [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2020-02-23T09:51:45+08:00 ] ::1 /foods/Index/setAll?nickName=%E6%96%B0%E7%94%A8%E6%88%B7&address=xx%E8%B7%AF1%E5%8F%B7&cardNum=22222222222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0213s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="新用户" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `users` SET `address`='xx路1号',`cardNum`='22222222222',`tel`='' WHERE ( nickName="新用户" ) [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2020-02-23T09:54:34+08:00 ] ::1 /foods/Index/getOrder?nickName=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="test" )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0209s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='1' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2020-02-23T11:01:49+08:00 ] ::1 /foods/Index/setOrder?nickName=test&shopTitle=%E7%BE%8E%E5%91%B3%E6%97%A5%E6%96%99%E5%85%89%E5%90%AF%E5%9F%8E%E5%BA%97&allNum=2&allPrice=90.00&item=[{%22title%22:%22%E6%97%A5%E5%BC%8F%E7%A7%8B%E5%88%80%E9%B1%BC%E5%AE%9A%E9%A3%9F%22,%22num%22:2}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0204s ]
+SQL: INSERT INTO `order` (`nickName`,`shopTitle`,`allNum`,`allPrice`,`time`) VALUES ('test','美味日料光启城店','2','90.00','2020-02-23 11:01:49') [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0132s ]
+SQL: INSERT INTO `item` (`foodTitle`,`num`,`oid`) VALUES ('日式秋刀鱼定食','2','5') [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002150s ]
+
+[ 2020-02-23T13:56:09+08:00 ] ::1 /foods/Index/setOrder?nickName=test&shopTitle=%E7%BE%8E%E5%91%B3%E6%97%A5%E6%96%99%E5%85%89%E5%90%AF%E5%9F%8E%E5%BA%97&allNum=2&allPrice=90.00&item=[{%22title%22:%22%E6%97%A5%E5%BC%8F%E7%A7%8B%E5%88%80%E9%B1%BC%E5%AE%9A%E9%A3%9F%22,%22num%22:2}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027432s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0553s ]
+SQL: INSERT INTO `order` (`nickName`,`shopTitle`,`allNum`,`allPrice`,`time`) VALUES ('test','美味日料光启城店','2','90.00','2020-02-23 13:56:08') [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0244s ]
+SQL: INSERT INTO `item` (`foodTitle`,`num`,`oid`) VALUES ('日式秋刀鱼定食','2','5') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017203s ]
+
+[ 2020-02-23T14:11:02+08:00 ] ::1 /foods/Index/setOrder?nickName=test&shopTitle=%E7%BE%8E%E5%91%B3%E6%97%A5%E6%96%99%E5%85%89%E5%90%AF%E5%9F%8E%E5%BA%97&allNum=2&allPrice=90.00&item=[{%22title%22:%22%E6%97%A5%E5%BC%8F%E7%A7%8B%E5%88%80%E9%B1%BC%E5%AE%9A%E9%A3%9F%22,%22num%22:2}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0260s ]
+SQL: INSERT INTO `order` (`nickName`,`shopTitle`,`allNum`,`allPrice`,`time`) VALUES ('test','美味日料光启城店','2','90.00','2020-02-23 14:11:02') [ RunTime:0.0195s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0188s ]
+SQL: INSERT INTO `item` (`foodTitle`,`num`,`oid`) VALUES ('日式秋刀鱼定食','2','2') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001583s ]
+
+[ 2020-02-23T14:17:53+08:00 ] ::1 /foods/Index/getOrder?nickName=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="test" )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0225s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='1' )  [ RunTime:0.0005s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='2' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2020-02-23T16:28:49+08:00 ] ::1 /foods/Index/getOrder?nickName=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0539s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="test" )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0160s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='1' )  [ RunTime:0.0007s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='2' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2020-02-23T16:30:01+08:00 ] ::1 /foods/Index/getOrder?nickName=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0820s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="test" )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0294s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='1' )  [ RunTime:0.0016s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='2' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002717s ]
+

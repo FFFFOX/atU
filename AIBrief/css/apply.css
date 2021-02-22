@@ -1,0 +1,167 @@
+.button1 {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    background: transparent;
+    color: rgb(197, 197, 197);
+    /* margin-bottom: 20px; */
+    margin: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    overflow: hidden;
+}
+
+
+/* 按钮悬浮 */
+
+.button1:hover {
+    border: 3px solid white;
+    color: rgba(250, 119, 12, 0);
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    background-image: url(../source/deeplearning.png);
+    background-position: center;
+}
+
+.button2 {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    background: transparent;
+    color: rgb(197, 197, 197);
+    /* margin-bottom: 20px; */
+    margin: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    overflow: hidden;
+}
+
+
+/* 按钮悬浮 */
+
+.button2:hover {
+    border: 3px solid white;
+    color: rgba(250, 119, 12, 0);
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    background-image: url(../source/visual.png);
+    background-position: center;
+}
+
+.button3 {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    background: transparent;
+    color: rgb(197, 197, 197);
+    /* margin-bottom: 20px; */
+    margin: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    overflow: hidden;
+}
+
+
+/* 按钮悬浮 */
+
+.button3:hover {
+    border: 3px solid white;
+    color: rgba(250, 119, 12, 0);
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    background-image: url(../source/voice.png);
+    background-position: center;
+}
+
+.button4 {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    background: transparent;
+    color: rgb(197, 197, 197);
+    /* margin-bottom: 20px; */
+    margin: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    overflow: hidden;
+}
+
+
+/* 按钮悬浮 */
+
+.button4:hover {
+    border: 3px solid white;
+    color: rgba(250, 119, 12, 0);
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    background-image: url(../source/assistant.png);
+    background-position: center;
+}
+
+.button5 {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    background: transparent;
+    color: rgb(197, 197, 197);
+    /* margin-bottom: 20px; */
+    margin: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    overflow: hidden;
+}
+
+
+/* 按钮悬浮 */
+
+.button5:hover {
+    border: 3px solid white;
+    color: rgba(250, 119, 12, 0);
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    background-image: url(../source/NLP.png);
+    background-position: center;
+}
+
+.button6 {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    background: transparent;
+    color: rgb(197, 197, 197);
+    /* margin-bottom: 20px; */
+    margin: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    overflow: hidden;
+}
+
+
+/* 按钮悬浮 */
+
+.button6:hover {
+    border: 3px solid white;
+    color: rgba(250, 119, 12, 0);
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    background-image: url(../source/Reco.png);
+    background-position: center;
+}

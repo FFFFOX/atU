@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI大事记</title>
+    <link rel="icon" href="./source/icon.png" type="image/x-icon" />
+
+</head>
+<style>
+    #bgImg {
+        height: 103%;
+        width: 101%;
+        background: url('source/lib.jpeg') no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: fixed;
+        overflow: scroll;
+        border: #000000;
+    }
+    
+    .outLabel {
+        align-self: center;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        background-color: rgba(14, 14, 14, 0.7);
+        height: 100%;
+        width: 60%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .titleLabel {
+        background: transparent;
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 70px;
+        text-align: left;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .tableImg {
+        width: 97%;
+        opacity: 0.7;
+    }
+    
+    .tableInfo {
+        width: 80%;
+    }
+    
+    .siriText {
+        font-size: 10px;
+        color: #939496;
+    }
+    
+    .button1 {
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        height: 200px;
+        width: 60%;
+        font-size: 50px;
+        text-align: center;
+        background: transparent;
+        color: rgb(105, 105, 105);
+        margin-bottom: 20px;
+        border: 1px solid white;
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .button1:hover {
+        background-color: #8a8a8a;
+        color: white;
+        height: 300px;
+        width: 80%;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+</style>
+
+
+
+<body bgcolor="#000000">
+    <div id='bgImg'>
+
+        <div class="music">
+            <audio muted src="./source/C418 - Alpha.mp3" autoplay="autoplay" controls="controls"> </audio>
+        </div>
+        <center>
+            <a href="./D_2.html" style="color: floralwhite;">
+                <button class="back">返回上页</button>
+            </a>
+            <center>
+                <div class="outLabel">
+                    <center>
+                        <p class="titleLabel">
+                            AI大事年表:
+                        </p>
+
+                        <p>&nbsp;&nbsp;20世纪40年代</p>
+                        <a href="./ENIAC.html" style="color: floralwhite;">
+                            <center><button class="button1">ENIAC计算机（1945年）</button></center>
+                        </a>
+
+                        <p>&nbsp;&nbsp;20世纪50年代</p>
+                        <a href="./Fortran.html" style="color: floralwhite;">
+                            <center><button class="button1">Fortran语言</button></center>
+                        </a>
+                        <p>&nbsp;&nbsp;20世纪60年代</p>
+                        <a href="./LISP.html" style="color: floralwhite;">
+                            <center><button class="button1">LISP语言</button></center>
+                        </a>
+                        <p>&nbsp;&nbsp;20世纪90年代</p>
+                        <a href="./net.html" style="color: floralwhite;">
+                            <center><button class="button1">人工神经网络</button></center>
+                        </a>
+                        <br><br><br><br><br><br>
+                        <img src="./source/eventTable.png" class="tableImg">
+                        <p class="siriText">图源：维基百科，人工智能词条</p>
+
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+                        <p class="titleLabel">
+                            AI发展史:
+                        </p>
+                        <table border="1px" class="tableInfo">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>时间</td>
+                                    <td>人物</td>
+                                    <td>事件</td>
+                                    <td>意义</td>
+                                </tr>
+                                <tr>
+                                    <td>1633</td>
+                                    <td>Rene Descartes</td>
+                                    <td>发表著作《论人》</td>
+                                    <td>提出灵魂存在于大脑的松果体中</td>
+                                </tr>
+                                <tr>
+                                    <td>1714</td>
+                                    <td>Gottfried Wilhelm Leibniz</td>
+                                    <td>《单子论》</td>
+                                    <td>一切知识都能通过理性思考获得。发现微积分，并开发了一套更为适用的记号方法。</td>
+                                </tr>
+                                <tr>
+                                    <td>1739</td>
+                                    <td>David Hume</td>
+                                    <td>《人性论》</td>
+                                    <td>将人类思维分为印象和思想</td>
+                                </tr>
+                                <tr>
+                                    <td>1781</td>
+                                    <td>Immanuel Kant</td>
+                                    <td>《纯粹理性批判》</td>
+                                    <td>世界存在两种世界：一个是能为人类身体所感知的经验世界，一个是自在世界。</td>
+                                </tr>
+                                <tr>
+                                    <td>1796</td>
+                                    <td>F.J.Gall</td>
+                                    <td>发展了颅相学</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1821</td>
+                                    <td>Charles Babbage</td>
+                                    <td>通用计算机构想</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1861</td>
+                                    <td>P.P.Broca</td>
+                                    <td>命名布罗卡区</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1870</td>
+                                    <td>Gustav Fritsch</td>
+                                    <td>发现大脑对侧控制原则</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1873</td>
+                                    <td>Camillo Golgi</td>
+                                    <td>发现了“染色”的黑色反应</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1874</td>
+                                    <td>C.Wernicke</td>
+                                    <td>命名韦尼克区</td>
+                                    <td>建立了行为障碍与大脑特定区域损伤之间的关系</td>
+                                </tr>
+                                <tr>
+                                    <td>1872</td>
+                                    <td>C.R.Darwin</td>
+                                    <td>《人类和动物对情绪的表达》</td>
+                                    <td>第一次涉及人类情绪的科学研究</td>
+                                </tr>
+                                <tr>
+                                    <td>1873</td>
+                                    <td>Wihelm Wundt</td>
+                                    <td>发表著作《心理生理学原理》</td>
+                                    <td>确立实验内省法，被后人称为实验心理学之父</td>
+                                </tr>
+                                <tr>
+                                    <td>1879</td>
+                                    <td>Gottlob Frege</td>
+                                    <td>概念演算–一种按算术语言构成的思维符号语言</td>
+                                    <td>弗雷格扩大逻辑学的内容，创造了“量化”逻辑，是分析哲学的鼻祖。</td>
+                                </tr>
+                                <tr>
+                                    <td>1889</td>
+                                    <td>S.R.Cajal</td>
+                                    <td>神经系统是由细胞构成的</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1885</td>
+                                    <td>Herman Ebbinghaus</td>
+                                    <td>《记忆：对实验心理学的一项贡献》</td>
+                                    <td>提出艾宾浩斯曲线。</td>
+                                </tr>
+                                <tr>
+                                    <td>1890</td>
+                                    <td>William James</td>
+                                    <td>《心理学原理》</td>
+                                    <td>被称为心理学之父</td>
+                                </tr>
+                                <tr>
+                                    <td>1896</td>
+                                    <td>Edward Bradford Titchener</td>
+                                    <td>《心理学大纲》</td>
+                                    <td>创立构造主义</td>
+                                </tr>
+                                <tr>
+                                    <td>1897</td>
+                                    <td>Ivan Pavlov</td>
+                                    <td>《关于主要消化腺功能的演讲》</td>
+                                    <td>提出条件反射定律。</td>
+                                </tr>
+                                <tr>
+                                    <td>1900</td>
+                                    <td>S.S.Freud</td>
+                                    <td>《梦的解析》</td>
+                                    <td>创立精神分析学派</td>
+                                </tr>
+                                <tr>
+                                    <td>1901</td>
+                                    <td>Edmund Husserl</td>
+                                    <td>发表著作《逻辑研究》</td>
+                                    <td>首次提出了现象学的基本原理，奠定了现象学描述分析方法的基础</td>
+                                </tr>
+                                <tr>
+                                    <td>1909</td>
+                                    <td>K.Broadmann</td>
+                                    <td>发表了大脑皮质的比较研究</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1911</td>
+                                    <td>Edward Thorndike</td>
+                                    <td>《动物智力》</td>
+                                    <td>提出联结主义</td>
+                                </tr>
+                                <tr>
+                                    <td>1912</td>
+                                    <td>M．Wetheimer</td>
+                                    <td>《运动知觉的实验研究》</td>
+                                    <td>格式塔心理学重要里程碑</td>
+                                </tr>
+                                <tr>
+                                    <td>1913</td>
+                                    <td>Bertrand Russell &amp; Alfred North Whitehead</td>
+                                    <td>《数学原理》</td>
+                                    <td>是20世纪科学的重大成果，被誉为是“人类心灵的最高成就之一”</td>
+                                </tr>
+                                <tr>
+                                    <td>1916</td>
+                                    <td>Ferdinand de Saussure</td>
+                                    <td>《普通语言学教程》</td>
+                                    <td>提出符号的能指和所指</td>
+                                </tr>
+                                <tr>
+                                    <td>1921</td>
+                                    <td>Ludwig Josef Johann Wittgenstein</td>
+                                    <td>《逻辑哲学论》</td>
+                                    <td>20世纪最难懂的著作之一</td>
+                                </tr>
+                                <tr>
+                                    <td>1924</td>
+                                    <td>John Watson</td>
+                                    <td>《行为主义》</td>
+                                    <td>开创了行为主义学派</td>
+                                </tr>
+                                <tr>
+                                    <td>1924</td>
+                                    <td>Hans Berger</td>
+                                    <td>EEG（脑电图）首次在人中使用</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1927</td>
+                                    <td>Martin Heidegger</td>
+                                    <td>《存在于时间》</td>
+                                    <td>20世纪存在主义的创始人</td>
+                                </tr>
+                                <tr>
+                                    <td>1929</td>
+                                    <td>Wolfgang Kohler</td>
+                                    <td>《格式塔心理学》</td>
+                                    <td>格式塔心理学创始人之一</td>
+                                </tr>
+                                <tr>
+                                    <td>1932</td>
+                                    <td>Edward Tolman</td>
+                                    <td>《动物和人类的目的性行为》</td>
+                                    <td>提出了人存在认知地图</td>
+                                </tr>
+                                <tr>
+                                    <td>1934</td>
+                                    <td>Carl.Jung</td>
+                                    <td>《原型与集体无意识》</td>
+                                    <td>提出集体无意识，并运用词语联想法</td>
+                                </tr>
+                                <tr>
+                                    <td>1934</td>
+                                    <td>SirKarl Raimund Popper</td>
+                                    <td>《科学发现的逻辑》</td>
+                                    <td>标志着西方科学哲学最重要的学派――批判理性主义的形成。</td>
+                                </tr>
+                                <tr>
+                                    <td>1936</td>
+                                    <td>Turing</td>
+                                    <td>发表《可计算数》</td>
+                                    <td>提出图灵机的设想</td>
+                                </tr>
+                                <tr>
+                                    <td>1936</td>
+                                    <td>Alfred Jules Ayer</td>
+                                    <td>发表《语言、真理与逻辑》</td>
+                                    <td>在书中提出有意识的人类及无意识的机器之间的区别，从而成为了逻辑实证主义在英文世界的代言人</td>
+                                </tr>
+                                <tr>
+                                    <td>1938</td>
+                                    <td>B.F.Skinner</td>
+                                    <td>《有机体的行为：实验分析》</td>
+                                    <td>详细介绍了实验方法，包括著名的斯金纳箱。</td>
+                                </tr>
+                                <tr>
+                                    <td>1940s</td>
+                                    <td>S.M.Ulam &amp; John von Neumann</td>
+                                    <td>提出蒙特卡洛方法</td>
+                                    <td>在金融工程学，宏观经济学，计算物理学等领域应用广泛。</td>
+                                </tr>
+                                <tr>
+                                    <td>1943</td>
+                                    <td>Warren McCulloch &amp;Walter Pitts</td>
+                                    <td>出版了《神经活动中固有的思维的逻辑运算》一书</td>
+                                    <td>提出了MP神经元模型</td>
+                                </tr>
+                                <tr>
+                                    <td>1943</td>
+                                    <td>Abraham Maslow</td>
+                                    <td>发表《人类动机理论》</td>
+                                    <td>提出需求层次理论</td>
+                                </tr>
+                                <tr>
+                                    <td>1946</td>
+                                    <td>Mauchly &amp;Eckert</td>
+                                    <td>ENIAC（第一台通用计算机）</td>
+                                    <td>为AI的研究提供了物质基础</td>
+                                </tr>
+                                <tr>
+                                    <td>1946</td>
+                                    <td>John von Neumann</td>
+                                    <td>提出冯诺伊曼架构</td>
+                                    <td>计算机发展史上的一个里程碑</td>
+                                </tr>
+                                <tr>
+                                    <td>1948</td>
+                                    <td>Nobert Wiener</td>
+                                    <td>《控制论》</td>
+                                    <td>为人工智能领域指明了研究的方向</td>
+                                </tr>
+                                <tr>
+                                    <td>1948</td>
+                                    <td>Claude.E.Shannon</td>
+                                    <td>《通信的数学理论》</td>
+                                    <td>现代信息论研究的开端</td>
+                                </tr>
+                                <tr>
+                                    <td>1949</td>
+                                    <td>D.O.Hebb</td>
+                                    <td>发表著作《行为的组织：一种神经心理理论》</td>
+                                    <td>提出了突触学习的模型，这个模型后来被称为“Hebb定律</td>
+                                </tr>
+                                <tr>
+                                    <td>1950</td>
+                                    <td>Turing</td>
+                                    <td>发表《计算机器与智能》</td>
+                                    <td>提出了图灵测试</td>
+                                </tr>
+                                <tr>
+                                    <td>1951</td>
+                                    <td>Wilder Penfield</td>
+                                    <td>《人类大脑皮质》</td>
+                                    <td>绘制出大脑皮层与人体之间的对应图</td>
+                                </tr>
+                                <tr>
+                                    <td>1955</td>
+                                    <td>Noam.Chomsky</td>
+                                    <td>发表著作《句法结构》</td>
+                                    <td>极大程度撼动了行为主义的主导地位，提出了通用语法结构</td>
+                                </tr>
+                                <tr>
+                                    <td>1956</td>
+                                    <td>John McCarthy</td>
+                                    <td>创立人工智能一词</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1956</td>
+                                    <td>达特茅斯会议展开</td>
+                                    <td>人工智能诞生的标志</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1956</td>
+                                    <td>Newell &amp; Simon &amp; shaw</td>
+                                    <td>逻辑理论家</td>
+                                    <td>可以进行数学命题证明的软件</td>
+                                </tr>
+                                <tr>
+                                    <td>1956</td>
+                                    <td>G.A.Miller</td>
+                                    <td>《神奇的数字》</td>
+                                    <td>首次提出记忆容量为5-9.极大程度撼动了行为主义的根基。</td>
+                                </tr>
+                                <tr>
+                                    <td>1957</td>
+                                    <td>Roland Barthes</td>
+                                    <td>《神话学》</td>
+                                    <td>语言就是肌肤</td>
+                                </tr>
+                                <tr>
+                                    <td>1957</td>
+                                    <td>B.Millner&amp; W.Scoville</td>
+                                    <td>发表了对H.M 的病例的分析</td>
+                                    <td>发现记忆可分为长时与短时记忆</td>
+                                </tr>
+                                <tr>
+                                    <td>1958</td>
+                                    <td>Frank Rosenblatt</td>
+                                    <td>发表《感知器：脑的组织和信息存储的概率模型》</td>
+                                    <td>提出了感知器模型打开了研究人工神经网络的大门</td>
+                                </tr>
+                                <tr>
+                                    <td>1958</td>
+                                    <td>John McCarthy</td>
+                                    <td>发明了LISP（表处理）语言</td>
+                                    <td>成为人工智能的得力研究工具</td>
+                                </tr>
+                                <tr>
+                                    <td>1958</td>
+                                    <td>Leonard E. Baum etc</td>
+                                    <td>研究前向后向算法(Baum-Welch)</td>
+                                    <td>HMM 学习问题的一个近似的解决方法</td>
+                                </tr>
+                                <tr>
+                                    <td>1958</td>
+                                    <td>Donald Broadbent</td>
+                                    <td>《知觉与沟通》</td>
+                                    <td>新认知心理学发展里程碑</td>
+                                </tr>
+                                <tr>
+                                    <td>1960</td>
+                                    <td>Newell&amp;Simon&amp;shaw</td>
+                                    <td>通用问题求解机</td>
+                                    <td>解决多种类型的数学难题</td>
+                                </tr>
+                                <tr>
+                                    <td>1960</td>
+                                    <td>B.Widrow&amp; Ted Hoff</td>
+                                    <td>建立ADALINE算法</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1964</td>
+                                    <td>Joseph Weizenbaum</td>
+                                    <td>开发了一个叫Eliza的机器人</td>
+                                    <td>实现了计算机与人功过文本进行交流</td>
+                                </tr>
+                                <tr>
+                                    <td>1965</td>
+                                    <td>Edward Feigenbaum.etc</td>
+                                    <td>研发专家系统DENDRAL</td>
+                                    <td>第一套有效进行工作的专家系统</td>
+                                </tr>
+                                <tr>
+                                    <td>1965</td>
+                                    <td>Gordon Moore</td>
+                                    <td>提出摩尔定律</td>
+                                    <td>这一定律揭示了信息技术进步的速度</td>
+                                </tr>
+                                <tr>
+                                    <td>1967</td>
+                                    <td>Paul MacLean</td>
+                                    <td>将大脑分为三个部分</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1968</td>
+                                    <td>Walter Mischel</td>
+                                    <td>发表著作《人格和测量》</td>
+                                    <td>提出的人格理论震惊世界，个体与其所处环境的动态交互过程是对其行为的最佳预测指标</td>
+                                </tr>
+                                <tr>
+                                    <td>1969</td>
+                                    <td>Seymour pappert&amp; Mavin Minsky</td>
+                                    <td>出版了《知觉》一书</td>
+                                    <td>认为神经网络的容量是有限的直接导致了神经网络研究的将近二十年的长期低潮</td>
+                                </tr>
+                                <tr>
+                                    <td>1970</td>
+                                    <td>T.Winogard</td>
+                                    <td>开发了SHRDLU系统</td>
+                                    <td>该系统可以部分理解语言</td>
+                                </tr>
+                                <tr>
+                                    <td>1971</td>
+                                    <td>R.Shepard&amp; Metzler</td>
+                                    <td>设计了心理旋转实验</td>
+                                    <td>为大脑隐形加工过程提供了一种革命性的方法</td>
+                                </tr>
+                                <tr>
+                                    <td>1972</td>
+                                    <td>SRI（斯坦福国际研究所）</td>
+                                    <td>研发机器人Shakey</td>
+                                    <td>首台采用了人工智能学的移动机器人</td>
+                                </tr>
+                                <tr>
+                                    <td>1972</td>
+                                    <td>Hubert Dreyfus</td>
+                                    <td>发表著作《计算机不能做什么》</td>
+                                    <td>很大程度打击了人们对人工智能领域的积极性</td>
+                                </tr>
+                                <tr>
+                                    <td>1972</td>
+                                    <td>Endel Tulving</td>
+                                    <td>发表著作《记忆的组织》</td>
+                                    <td>将长时记忆分为语义记忆和情景记忆</td>
+                                </tr>
+                                <tr>
+                                    <td>1975</td>
+                                    <td>F.Holland</td>
+                                    <td>发表著作《自然与人工系统适应调节》</td>
+                                    <td>介绍遗传算法</td>
+                                </tr>
+                                <tr>
+                                    <td>1976</td>
+                                    <td>Joseph Weizenbaum</td>
+                                    <td>发表了《计算机能力和人类推理》</td>
+                                    <td>书中指明了人工智能研究人员应当对他们的研究带来的结果担负起应有的责任</td>
+                                </tr>
+                                <tr>
+                                    <td>1976</td>
+                                    <td>N.J.Nilsson &amp; Allen Newell etc</td>
+                                    <td>提出物理符号系统假设</td>
+                                    <td>企图建立人工智能的理论体系</td>
+                                </tr>
+                                <tr>
+                                    <td>1976</td>
+                                    <td>John.R.Anderson</td>
+                                    <td>提出ACT－R框架</td>
+                                    <td>人类认知结构</td>
+                                </tr>
+                                <tr>
+                                    <td>1976</td>
+                                    <td>Richard Dawkings</td>
+                                    <td>发表著作《自私的基因》</td>
+                                    <td>指出个体经过与他人的长期互动发展出自己的行为倾向</td>
+                                </tr>
+                                <tr>
+                                    <td>1977</td>
+                                    <td>Grossberg</td>
+                                    <td>提出ART网络</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1977</td>
+                                    <td>Albert Bandura</td>
+                                    <td>发表《社会学习理论》</td>
+                                    <td>大部分人类行为都是通过模仿习得的</td>
+                                </tr>
+                                <tr>
+                                    <td>1978</td>
+                                    <td>Hebert A.Simon</td>
+                                    <td>获得了诺贝尔经济学奖</td>
+                                    <td>“有限理性”理论对人工智能领域的决策和问题解决等程序有着重要的指导意义</td>
+                                </tr>
+                                <tr>
+                                    <td>1979</td>
+                                    <td>Daniel Kahneman</td>
+                                    <td>提出前景理论</td>
+                                    <td>发现人们基于经验解决问题时存在很大问题。</td>
+                                </tr>
+                                <tr>
+                                    <td>1980</td>
+                                    <td>John Searle</td>
+                                    <td>提出了思想“中文屋”</td>
+                                    <td>引起了极大的争议和讨论热潮</td>
+                                </tr>
+                                <tr>
+                                    <td>1981</td>
+                                    <td>Roger W.Sperry</td>
+                                    <td>获得诺贝尔奖</td>
+                                    <td>裂脑实验证实大脑中可能有两个意志在活动</td>
+                                </tr>
+                                <tr>
+                                    <td>1981</td>
+                                    <td>Gordon Bower</td>
+                                    <td>发表著作《情绪和记忆》</td>
+                                    <td>提出情绪和事件是一起被存储在记忆重的</td>
+                                </tr>
+                                <tr>
+                                    <td>1982</td>
+                                    <td>Newell etc</td>
+                                    <td>《统一化的认知理论》</td>
+                                    <td>研发SOAR软件</td>
+                                </tr>
+                                <tr>
+                                    <td>1982</td>
+                                    <td>John Hopfield</td>
+                                    <td>《具有集体计算能力的神经网络和实际系统》</td>
+                                    <td>提出了一种具有联想记忆能力的新型神经网络，后被称为“霍普菲尔德网络”</td>
+                                </tr>
+                                <tr>
+                                    <td>1982</td>
+                                    <td>Teuvo.Kohonen</td>
+                                    <td>发表了《自组织映射》</td>
+                                    <td>介绍了SOM算法，是一种简单而有效的无指导学习算法</td>
+                                </tr>
+                                <tr>
+                                    <td>1983</td>
+                                    <td>T.Sejnowski&amp; G.Hinton</td>
+                                    <td>提出了"隐单元"的概念，并且研制出了Boltzmann机</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1983</td>
+                                    <td>福岛邦彦</td>
+                                    <td>构造出了可以实现联想学习的"认知机</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1983</td>
+                                    <td>B．Libet etc</td>
+                                    <td>设计实验证明准备电位的出现要早于意识到动作意图的时间</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1984</td>
+                                    <td>Douglas Lenat</td>
+                                    <td>开启大百科全书项目</td>
+                                    <td>使人工智能的应用能够以类似人类推理的方式工作</td>
+                                </tr>
+                                <tr>
+                                    <td>1985</td>
+                                    <td>DTI</td>
+                                    <td>（弥散张量成像）</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1986</td>
+                                    <td>Geoffrey.E.Hinton&amp; David E.Rumelhart &amp;James L.McClelland</td>
+                                    <td>出版《并行分布式处理：认知的微细构造探索》</td>
+                                    <td>重新提出了简明有效的误差反传算法（即BP算法）</td>
+                                </tr>
+                                <tr>
+                                    <td>1986</td>
+                                    <td>Rumelhart</td>
+                                    <td>提出了EBP算法</td>
+                                    <td>解决了MLP的权重问题</td>
+                                </tr>
+                                <tr>
+                                    <td>1986</td>
+                                    <td>Paul Smolensky</td>
+                                    <td>提出了RBM（限制性波尔玆曼）模型</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1987</td>
+                                    <td>Marvin Minsky</td>
+                                    <td>出版著作《思维社会》</td>
+                                    <td>向人们描述了大脑中各种不同层次水平的“智能主体”</td>
+                                </tr>
+                                <tr>
+                                    <td>1987</td>
+                                    <td>D.C.McClelland</td>
+                                    <td>发表著作《人类的动机》</td>
+                                    <td>提出三种核心动机驱动个体做出行动</td>
+                                </tr>
+                                <tr>
+                                    <td>1987</td>
+                                    <td>Nileson</td>
+                                    <td>提出了CP神经网络</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1988</td>
+                                    <td>L.O.Chua</td>
+                                    <td>提出了CNN神经网络</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1990</td>
+                                    <td>fMRI出现</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1991</td>
+                                    <td>Richard Stanley Lazarus</td>
+                                    <td>发表《情绪与记忆》</td>
+                                    <td>个体的思维先于情绪或生理唤出的出现</td>
+                                </tr>
+                                <tr>
+                                    <td>1994</td>
+                                    <td>Steven.Pinker</td>
+                                    <td>发表著作《语言本能》</td>
+                                    <td>提出语言是本能的观点</td>
+                                </tr>
+                                <tr>
+                                    <td>1995</td>
+                                    <td>Vladmir Vapnik etc</td>
+                                    <td>提出了支持向量机算法</td>
+                                    <td>可以分析数据，识别模式，用于分类和回归分析</td>
+                                </tr>
+                                <tr>
+                                    <td>1995</td>
+                                    <td>M.R.Endsley</td>
+                                    <td>提出态势感知模型</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1996</td>
+                                    <td>G．Rizzolatti</td>
+                                    <td>发现了猴脑中的镜像神经元</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1997</td>
+                                    <td>DeepBlue（IBM）公司</td>
+                                    <td>国际象棋击败卡斯帕罗夫</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1997</td>
+                                    <td>Sepp Hochreiter &amp; Jürgen Schmidhuber</td>
+                                    <td>提出长短时记忆算法（LSTM）</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1998</td>
+                                    <td>A．Clark&amp; D. Chalmers</td>
+                                    <td>提出了外脑假说</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>1998</td>
+                                    <td>M.Botvinick&amp; J.Cohen</td>
+                                    <td>设计了著名的橡胶手实验</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2003</td>
+                                    <td>Paul Ekman</td>
+                                    <td>发表《情绪的解析》</td>
+                                    <td>提出了情绪的六大类型</td>
+                                </tr>
+                                <tr>
+                                    <td>2004</td>
+                                    <td>黄广斌</td>
+                                    <td>提出了ELM算法</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2005Ray Kurzwei</td>
+                                    <td>出版《奇点将至》</td>
+                                    <td>2045年电脑全面超越人脑</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2006</td>
+                                    <td>G.E.Hinton</td>
+                                    <td>发表著作《深层置信网络的快速算法》</td>
+                                    <td>提出DBNS神经网络</td>
+                                </tr>
+                                <tr>
+                                    <td>2006</td>
+                                    <td>Geoffrey.E.Hinton &amp; Lecun etc</td>
+                                    <td>提出深度学习概念</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2006</td>
+                                    <td>Richard Stanley Lazarus</td>
+                                    <td>发表著作《情绪的法则》</td>
+                                    <td>提出情绪本质是无意识过程。</td>
+                                </tr>
+                                <tr>
+                                    <td>2007</td>
+                                    <td>J．Lichtman&amp; J.Sanes</td>
+                                    <td>开发了脑虹技术</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2008</td>
+                                    <td>Daniel Dennett</td>
+                                    <td>《意识的解释》</td>
+                                    <td>本书是心智哲学甚至当代哲学中最重要的著作之一，全方位地探索意识现象</td>
+                                </tr>
+                                <tr>
+                                    <td>2009</td>
+                                    <td>美国国立卫生研究院</td>
+                                    <td>人脑连接组计划启动</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2011</td>
+                                    <td>Watson（IBM公司）</td>
+                                    <td>参加“危险边缘”，打败两位人类冠军。</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2012</td>
+                                    <td>Google X实验室</td>
+                                    <td>采用“神经系统”识别出一只猫</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2013</td>
+                                    <td>Standford 大学</td>
+                                    <td>成功的让老鼠的大脑完全透明</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2016</td>
+                                    <td>AlphaGo（Google DeepMind）</td>
+                                    <td>围棋击败李世石</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br><br><br><br>
+                    </center>
+
+                </div>
+            </center>
+
+        </center>
+
+
+
+        <div class="footer">
+            <center>
+                Created by LC
+            </center>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

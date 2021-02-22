@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/css.css" />
+    <title>LISP语言</title>
+    <link rel="icon" href="./source/icon.png" type="image/x-icon" />
+
+</head>
+<style>
+    #bgImg {
+        height: 103%;
+        width: 101%;
+        background: url('./source/EniacBack.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: fixed;
+        overflow: scroll;
+        border: #000000;
+    }
+    
+    .outLabel {
+        align-self: center;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        background-color: rgba(121, 121, 121, 0.7);
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .textLabel {
+        align-self: center;
+        background: transparent;
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .titleLabel {
+        align-self: center;
+        background: transparent;
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 70px;
+        text-align: center;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .siri {
+        width: 30%;
+        opacity: 0.7;
+    }
+    
+    .siriText {
+        font-size: 10px;
+    }
+    
+    #canvas {
+        position: fixed;
+        z-index: -2;
+    }
+    
+    .Lisptable {
+        width: 80%;
+    }
+</style>
+
+
+
+<body bgcolor="#000000">
+
+    <canvas id="canvas" style="background:black" width=100% height=500%></canvas>
+    <script>
+        window.onload = function() {
+
+            //获取图形对象
+
+            var canvas = document.getElementById("canvas");
+
+            //获取图形的上下文
+
+            var context = canvas.getContext("2d");
+
+            //获取浏览器屏幕的宽度和高度
+
+            var W = window.innerWidth;
+
+            var H = window.innerHeight;
+
+            //设置canvas的宽度和高度
+
+            canvas.width = W;
+
+            canvas.height = H;
+
+            //每个文字的字体大小
+
+            var fontSize = 15;
+
+            //计算列
+
+            var colunms = Math.floor(W / fontSize);
+
+            //记录每列文字的y轴坐标
+
+            var s = [];
+
+            //给每一个文字初始化一个起始点的位置
+
+            for (var i = 0; i < colunms; i++) {
+
+                s.push(0);
+
+            }
+
+            //运动的文字
+
+            var str = "01abcdefghijklmnopqurstuvwxyz";
+
+            //4:fillText(str,x,y);原理就是去更改y的坐标位置
+
+            //绘画的函数
+
+            function draw() {
+
+                //让背景逐渐由透明到不透明
+
+                context.fillStyle = "rgba(0,0,0,0.05)";
+
+                context.fillRect(0, 0, W, H);
+
+                //给字体设置样式
+
+                //context.font = "700 "+fontSize+"px  微软雅黑";
+
+                context.font = fontSize + 'px arial';
+
+                //给字体添加颜色
+
+                context.fillStyle = "grey"; //随意更改字体颜色
+
+                //写入图形中
+
+                for (var i = 0; i < colunms; i++) {
+
+                    var index = Math.floor(Math.random() * str.length);
+
+                    var x = i * fontSize;
+
+                    var y = s[i] * fontSize;
+
+                    context.fillText(str[index], x, y);
+
+                    //如果要改变时间，肯定就是改变每次他的起点
+
+                    if (y >= canvas.height && Math.random() > 0.92) {
+
+                        s[i] = 0;
+
+                    }
+
+                    s[i]++;
+
+                }
+
+            };
+
+            function randColor() {
+
+                var r = Math.floor(Math.random() * 256);
+
+                var g = Math.floor(Math.random() * 256);
+
+                var b = Math.floor(Math.random() * 256);
+
+                return "rgb(" + r + "," + g + "," + b + ")";
+
+            }
+
+            draw();
+
+            setInterval(draw, 33);
+
+        };
+    </script>
+
+
+    <div class="music">
+        <audio muted src="./source/C418 - Alpha.mp3" autoplay="autoplay" controls="controls"> </audio>
+    </div>
+    <center>
+        <a href="./Al_events.html" style="color: floralwhite;">
+            <button class="back">返回上页</button>
+        </a>
+    </center>
+    <center>
+        <div class="outLabel">
+            <center>
+                <p class="titleLabel">
+                    LISP语言
+                </p>
+                <p class="textLabel">
+                    <br><br>Lisp（历史上拼写为LISP）是具有悠久历史的计算机编程语言家族，有独特和完全括号的前缀符号表示法。起源于公元1958年，是现今第二悠久而仍广泛使用的高端编程语言。只有FORTRAN编程语言比它更早一年。Lisp编程语族已经演变出许多种方言。现代最著名的通用编程语种是Clojure、Common Lisp和Scheme。
+
+                    <br><br>Lisp最初创建时受到阿隆佐·邱奇的lambda演算的影响，用来作为计算机程序实用的数学表达。因为是早期的高端编程语言之一，它很快成为人工智能研究中最受欢迎的编程语言。在计算机科学领域，Lisp开创了许多先驱概念，包括：树结构、自动存储器管理、动态类型、条件表达式、高端函数、递归、自主（self-hosting）编译器、读取﹣求值﹣输出循环（英语：Read-Eval-Print Loop，REPL）。
+
+                    <br><br>"LISP"名称源自“列表处理器”（英语：LISt Processor）的缩写。列表是Lisp的主要数据结构之一，Lisp编程代码也同样由列表组成。因此，Lisp程序可以把源代码当作数据结构进行操作，而使用其中的宏系统，开发人员可将自己定义的新语法或领域专用的语言，嵌入在Lisp编程中。
+
+                    <br><br>代码和数据的可互换性为Lisp提供了立即可识别的语法。所有的Lisp程序代码都写为S-表达式或以括号表示的列表。函数调用或语义形式也同样写成列表，首先是函数或操作符的名称，然后接着是一或多个参数：例如，取三个参数的函数f即为（f arg1 arg2 arg3）。
+                    <br><br><br><br>
+                    <center>
+                        <img src="./source/Lisplogo.png" class="siri">
+                    </center>
+
+                    <center>
+                        <p class="siriText">Lisplogo</p>
+                    </center>
+
+                </p>
+                <table class="navbox" border="1" class="Lisptable">
+                    <caption>Lisp 时间轴
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <th>
+                            </th>
+                            <th>1955
+                            </th>
+                            <th>1960
+                            </th>
+                            <th>1965
+                            </th>
+                            <th>1970
+                            </th>
+                            <th>1975
+                            </th>
+                            <th>1980
+                            </th>
+                            <th>1985
+                            </th>
+                            <th>1990
+                            </th>
+                            <th>1995
+                            </th>
+                            <th>2000
+                            </th>
+                            <th>2005
+                            </th>
+                            <th>2010
+                            </th>
+                            <th>2015
+                            </th>
+                            <th>2020
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Lisp 1.5
+                            </th>
+                            <td align="center" colspan="3" style="background:rgb(71, 71, 71)"><a class="mw-selflink selflink">Lisp 1.5</a>
+                            </td>
+                            <td colspan="10">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Maclisp
+                            </th>
+                            <td colspan="2">
+                            </td>
+                            <td align="center" colspan="5" style="background:rgb(71, 71, 71)">Maclisp</a>
+                            </td>
+                            <td colspan="6">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Interlisp
+                            </th>
+                            <td colspan="3">
+                            </td>
+                            <td align="center" colspan="5" style="background:rgb(71, 71, 71)">Interlisp</a>
+                                </span>
+                                </span>
+                            </td>
+                            <td colspan="5">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>ZetaLisp
+                            </th>
+                            <td colspan="4">
+                            </td>
+                            <td align="center" colspan="5" style="background:rgb(71, 71, 71)">Lisp Machine Lisp</a>
+                                </span>
+                                </span>
+                            </td>
+                            <td colspan="4">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Scheme
+                            </th>
+                            <td colspan="4">
+                            </td>
+                            <td align="center" colspan="10" style="background:rgb(71, 71, 71)">Scheme</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>NIL
+                            </th>
+                            <td colspan="4">
+                            </td>
+                            <td align="center" colspan="2" style="background:rgb(71, 71, 71)"><span class="ilh-all" data-orig-title="NIL (programming language)" data-lang-code="en" data-lang-name="英语" data-foreign-title="NIL (programming language)"><span class="ilh-page"></span>NIL (programming language)</span>
+                                </a>
+
+                            </td>
+                            <td colspan="7">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Common Lisp
+                            </th>
+                            <td colspan="5">
+                            </td>
+                            <td align="center" colspan="9" style="background:rgb(71, 71, 71)">Common Lisp</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>T
+                            </th>
+                            <td colspan="6">
+                            </td>
+                            <td align="center" colspan="3" style="background:rgb(71, 71, 71)">T language</a>
+
+                            </td>
+                            <td colspan="4">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Emacs Lisp
+                            </th>
+                            <td colspan="6">
+                            </td>
+                            <td align="center" colspan="8" style="background:rgb(71, 71, 71)">Emacs Lisp</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>AutoLISP
+                            </th>
+                            <td colspan="6">
+                            </td>
+                            <td align="center" colspan="8" style="background:rgb(71, 71, 71)">AutoLISP</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>OpenLisp
+                            </th>
+                            <td colspan="6">
+                            </td>
+                            <td align="center" colspan="8" style="background:rgb(71, 71, 71)">OpenLisp</a>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>PicoLisp
+                            </th>
+                            <td colspan="6">
+                            </td>
+                            <td align="center" colspan="8" style="background:rgb(71, 71, 71)">PicoLisp</a>
+                                </span>
+                                </span>
+                                </span>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>EuLisp
+                            </th>
+                            <td colspan="7">
+                            </td>
+                            <td align="center" colspan="6" style="background:rgb(71, 71, 71)">EuLisp</a>
+
+                            </td>
+                            <td colspan="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>ISLISP
+                            </th>
+                            <td colspan="7">
+                            </td>
+                            <td align="center" colspan="8" style="background:rgb(71, 71, 71)">ISLISP</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>newLISP
+                            </th>
+                            <td colspan="7">
+                            </td>
+                            <td align="center" colspan="7" style="background:rgb(71, 71, 71)">newLISP</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Racket
+                            </th>
+                            <td colspan="7">
+                            </td>
+                            <td align="center" colspan="7" style="background:rgb(71, 71, 71)">Racket</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Guile
+                            </th>
+                            <td colspan="7">
+                            </td>
+                            <td align="center" colspan="7" style="background:rgb(71, 71, 71)">GNU Guile</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Visual LISP
+                            </th>
+                            <td colspan="9">
+                            </td>
+                            <td align="center" colspan="5" style="background:rgb(71, 71, 71)">Visual LISP</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Clojure
+                            </th>
+                            <td colspan="10">
+                            </td>
+                            <td align="center" colspan="4" style="background:rgb(71, 71, 71)">Clojure</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Arc
+                            </th>
+                            <td colspan="10">
+                            </td>
+                            <td align="center" colspan="4" style="background:rgb(71, 71, 71)">
+                                Arc</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>LFE
+                            </th>
+                            <td colspan="10">
+                            </td>
+                            <td align="center" colspan="4" style="background:rgb(71, 71, 71)">LFE (programming language)</span>
+                                </a>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Hy
+                            </th>
+                            <td colspan="11">
+                            </td>
+                            <td align="center" colspan="3" style="background:rgb(71, 71, 71)">Hy</a>
+                                </span>
+                                </span>）</span>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </center>
+
+        </div>
+    </center>
+    <div class="footer">
+        <center>
+            Created by LC
+        </center>
+    </div>
+
+
+</body>
+
+</html>

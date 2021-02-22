@@ -1,0 +1,504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>修改活动</title>
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+ <link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="__PUBLIC__/css/style.css"/>       
+        <link rel="stylesheet" href="__PUBLIC__/assets/css/ace.min.css" />
+        <link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css" />
+        <link href="__PUBLIC__/Widget/icheck/icheck.css" rel="stylesheet" type="text/css" />
+	    <script src="__PUBLIC__/js/jquery-1.9.1.min.js"></script>
+        <script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+        <script src="__PUBLIC__/assets/js/typeahead-bs2.min.js"></script>
+         <script src="__PUBLIC__/assets/layer/layer.js" type="text/javascript"></script>
+        <script type="text/javascript" src="__PUBLIC__/Widget/swfupload/swfupload.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Widget/swfupload/swfupload.queue.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Widget/swfupload/swfupload.speed.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Widget/swfupload/handlers.js"></script>
+</head>
+
+<body>
+	<h3 style="color: #3b98d6;font-family: '华文中宋'; font-weight: 700; margin-top: 20px;margin-left: 20px;">活动修改</h3>
+<div class=" clearfix">
+ <div id="add_brand" class="clearfix">
+ <div  class="clearfix" id="add_picture">
+ <form action="" method="post" enctype="multipart/form-data">
+   <ul class="add_conent">
+   <input type="hidden" name="aid" value="{$info.aid}" />
+    <li class=" clearfix"><label class="label_name">活动名称：</label> <input name="name" type="text" value="{$info.name}" class="add_text" style="width:300px"/></li>
+    
+	
+	<!-- 列表图片上传 -->
+    <li class=" clearfix"><label class="label_name">列表图片：</label>
+	
+           <div class="demo l_f">
+			<input type="file" id="upLoad" name="img" >  
+			 <!--显示上传之后的图片 -->  						
+	           <div class="logobox">
+				   <div class="resizebox"> 
+					   <img src="__PUBLIC__/{$info.img|substr=9}" id='viewImg' width="100px" alt="" height="100px"/>
+				</div>
+			</div> 	                               
+		   </div>
+		   <!--
+		   <input name="img" type="file" class="add_text" style="width:300px"/>
+		   <img src="__PUBLIC__/{$info.img|substr=9}" width="150">
+		   -->
+		   <div class="prompt"><p>支持.jpg;.gif;.png;.jpeg格式的图片</p></div>  
+	</li>
+	<!-- 图片上传结束 -->
+
+<!-- 详情图片上传 -->
+<li class=" clearfix"><label class="label_name">详情图片：</label>
+	<div class="demo l_f" >
+	 <input  type="file" id="upLoadtwo" name="backgroundimg" >  
+	 <!-- 显示上传之后的图片 -->  	
+		<div class="logobox">
+			<div class="resizebox">
+				<img src="__PUBLIC__/{$info.backgroundimg|substr=9}" id='viewImgtwo' width="100px" alt="" height="100px"/>
+		 </div>
+	 </div> 	                               
+	</div>
+	<div class="prompt"><p>支持.jpg;.gif;.png;.jpeg格式的图片</p></div>  
+</li>
+<!-- 图片上传结束 -->
+ 
+         <li class=" clearfix"><label class="label_name">活动地点：</label> <input name="loc" type="text" value="{$info.loc}" class="add_text" style="width:300px"/></li>
+         <li class=" clearfix"><label class="label_name">活动位置：</label> <input name="site" type="text" value="{$info.site}" class="add_text" style="width:300px"/></li>
+         <li class=" clearfix"><label class="label_name">活动日期：</label> <input name="date" type="text" value="{$info.date}" class="add_text" style="width:300px"/><label class="prompt">&nbsp;&nbsp;&nbsp;&nbsp;例：2021年1月1日</label></li>
+         <li class=" clearfix"><label class="label_name">开始时间：</label> <input name="begin" type="text" value="{$info.begin}" class="add_text" style="width:300px"/><label class="prompt">&nbsp;&nbsp;&nbsp;&nbsp;例：8:30</label></li>
+         <li class=" clearfix"><label class="label_name">结束时间：</label> <input name="end" type="text" value="{$info.end}" class="add_text" style="width:300px"/><label class="prompt">&nbsp;&nbsp;&nbsp;&nbsp;例：17:00</label></li>
+         <li class=" clearfix"><label class="label_name">人数限制：</label> <input name="total" type="text" value="{$info.total}" class="add_text" style="width:300px"/></li>
+         <li class=" clearfix"><label class="label_name">报名截止：</label> <input name="deadline" type="text" value="{$info.deadline}" class="add_text" style="width:300px"/>&nbsp;&nbsp;&nbsp;&nbsp;例：2021-01-01 23:59:59</label></li>
+		 <li class=" clearfix">
+			<label class="label_name">报名限制：</label> 
+			
+			    <div style="height:200px;width:370px;overflow-y:auto;margin-left:95px;border:1px solid #d5d5d5;">
+			        <volist name="clubName" id="v" > 
+                        <!--<label>-->
+                            <input type="checkbox" name="clubs[]" value="{$v.cid}" 
+                                <volist name="actClubCid" id="vo" >
+                                    <if condition="$vo['cid'] eq $v['cid']">checked = "checked"</if>
+                                </volist>
+                            >&nbsp;{$v.loc}&emsp;{$v.name}<br>
+                        <!--</label>-->
+                        <!--{in name="1" value= "1,2,3" } checked {/in}-->
+
+                        <!--checked $vo['cid']-->
+                    </volist>
+			    </div>
+		</li>
+		<!--
+		 <li class=" clearfix"><label class="label_name">报名限制：</label> 
+			<form id="form1" name="form1" method="post" action="">
+				<label for="limit_loc"></label>
+				<select name="limit_loc" id="limit_loc"  style="width:100px">
+				  <OPTION value="" SELECTED>地点</OPTION> 
+				  <OPTION value="1">北京</OPTION> 
+				  <OPTION value="2">上海</OPTION> 
+				  <OPTION value="3">厦门</OPTION> 
+				</select>
+				<label for="limit_name"></label>
+				<select name="limit_name" id="limit_name" style="width:300px">
+				  <OPTION value="" SELECTED>名称</OPTION> 
+				  <OPTION value="1">北京特斯拉车友俱乐部</OPTION> 
+				  <OPTION value="2">上海特斯拉车友俱乐部</OPTION> 
+				  <OPTION value="3">厦门特斯拉车友俱乐部</OPTION> 
+				</select>
+				<input class="btn btn-warning Order_form" type="submit" value="添加"></input> 
+			  </form>
+<div style="width: 500px; margin-left: 90px;margin-top: 20px;">
+		<table class="table table-striped table-bordered table-hover" id="sample-table" style="float: left;">
+		<thead>
+			<tr>
+				   <th width="100px">俱乐部地点</th>
+				   <th width="300px">俱乐部名称</th>           
+				   <th width="100px">操作</th>
+			   </tr>
+		   </thead>
+	   <tbody>
+		   <tr>
+		   <td>北京</td>
+		   <td>特斯拉 Model 3 北京车友俱乐部</td>
+		   <td><a title="删除" class="btn btn-xs btn-warning">删除</a></td>
+		   </tr>
+		   </tbody>    
+		</table>    
+		</div>
+	</li>
+	-->
+</ul>
+
+   <div class="clearfix cl">
+	<div class="Button_operation">
+		<input class="btn btn-primary radius" type="submit" value="确认"></input> 
+		<a class="btn btn-default radius" href="{:U('actmanage')}" type="button" value="">取消</a>
+	</div>
+	</form>
+</body>
+</html>
+<!-- 判断复选框是否被选中 报名限制条件 -->
+<literal>
+    <script type="text/javascript">
+        // window.onload = function(){
+        //     // console.log(123);
+        //     let markerChecked = $('#limits').prop("checked"); //获得属性
+        //     for(i = 0;i < 5;i++) {
+        //         alert(i);
+        //         console.log(i);
+        //         $(concat('#',i)).prop("checked",true);
+        //     }
+// 			$('#limits').prop("checked",true);	
+
+        }
+
+    </script>
+</literal>
+<!-- 列表图片上传函数 -->
+<literal>
+<script type="text/javascript">
+  
+	$(function(){  
+	  $('#upLoad').on('change',function(){  
+		  var filePath = $(this).val(),         //获取到input的value，里面是文件的路径  
+			  fileFormat = filePath.substring(filePath.lastIndexOf(".")).toLowerCase(),  
+			  imgBase64 = '',      //存储图片的imgBase64  
+			  fileObj = document.getElementById('upLoad').files[0]; //上传文件的对象,要这样写才行，用jquery写法获取不到对象  
+				
+		  // 检查是否是图片  
+		  if( !fileFormat.match(/.gif|.png|.jpg|.jpeg/) ) {  
+			  alert('上传错误,文件格式必须为：gif/png/jpg/jpeg');  
+			  return;    
+		  }  
+	
+		  // 调用函数，对图片进行压缩  
+		  compress(fileObj,function(imgBase64){  
+			  imgBase64 = imgBase64;    //存储转换的base64编码  
+			  $('#viewImg').attr('src',imgBase64); //显示预览图片  
+		  });  
+	  });  
+	
+	   // 不对图片进行压缩，直接转成base64  
+	  function directTurnIntoBase64(fileObj,callback){  
+		  var r = new FileReader();  
+		  // 转成base64  
+		  r.onload = function(){  
+			 //变成字符串  
+			  imgBase64 = r.result;  
+			  console.log(imgBase64);  
+			  callback(imgBase64);  
+		  }  
+		  r.readAsDataURL(fileObj);    //转成Base64格式  
+	  }  
+	
+		 // 对图片进行压缩  
+	  function compress(fileObj, callback) {   
+		  if ( typeof (FileReader) === 'undefined') {    
+			  console.log("当前浏览器内核不支持base64图标压缩");    
+			  //调用上传方式不压缩    
+			  directTurnIntoBase64(fileObj,callback);  
+		  } else {    
+			  try {      
+				  var reader = new FileReader();    
+				  reader.onload = function (e) {    
+					  var image = $('<img/>');    
+					  image.load(function(){    
+						  square = 700,   //定义画布的大小，也就是图片压缩之后的像素  
+						  canvas = document.createElement('canvas'),   
+						  context = canvas.getContext('2d'),  
+						  imageWidth = 0,    //压缩图片的大小  
+						  imageHeight = 0,   
+						  offsetX = 0,   
+						  offsetY = 0,  
+						  data = '';   
+	
+						  canvas.width = square;    
+						  canvas.height = square;   
+						  context.clearRect(0, 0, square, square);     
+	
+						  if (this.width > this.height) {    
+							  imageWidth = Math.round(square * this.width / this.height);    
+							  imageHeight = square;    
+							  offsetX = - Math.round((imageWidth - square) / 2);    
+						  } else {    
+							  imageHeight = Math.round(square * this.height / this.width);    
+							  imageWidth = square;    
+							  offsetY = - Math.round((imageHeight - square) / 2);    
+						  }    
+						  context.drawImage(this, offsetX, offsetY, imageWidth, imageHeight);    
+						  var data = canvas.toDataURL('image/jpeg');    
+						  //压缩完成执行回调    
+						   callback(data);    
+					  });    
+					  image.attr('src', e.target.result);    
+				  };    
+				  reader.readAsDataURL(fileObj);    
+			  }catch(e){    
+				  console.log("压缩失败!");    
+				  //调用直接上传方式  不压缩   
+				  directTurnIntoBase64(fileObj,callback);   
+			  }    
+		  }  
+	  }  
+  });  
+	
+   </script>
+</literal>
+
+<!-- 详情图片上传函数 -->
+<literal>
+<script type="text/javascript">
+  
+	$(function(){  
+	  $('#upLoadtwo').on('change',function(){  
+		  var filePath = $(this).val(),         //获取到input的value，里面是文件的路径  
+			  fileFormat = filePath.substring(filePath.lastIndexOf(".")).toLowerCase(),  
+			  imgBase64 = '',      //存储图片的imgBase64  
+			  fileObj = document.getElementById('upLoadtwo').files[0]; //上传文件的对象,要这样写才行，用jquery写法获取不到对象  
+				
+		  // 检查是否是图片  
+		  if( !fileFormat.match(/.gif|.png|.jpg|.jpeg/) ) {  
+			  alert('上传错误,文件格式必须为：gif/png/jpg/jpeg');  
+			  return;    
+		  }  
+	
+		  // 调用函数，对图片进行压缩  
+		  compress(fileObj,function(imgBase64){  
+			  imgBase64 = imgBase64;    //存储转换的base64编码  
+			  $('#viewImgtwo').attr('src',imgBase64); //显示预览图片  
+		  });  
+	  });  
+	
+	   // 不对图片进行压缩，直接转成base64  
+	  function directTurnIntoBase64(fileObj,callback){  
+		  var r = new FileReader();  
+		  // 转成base64  
+		  r.onload = function(){  
+			 //变成字符串  
+			  imgBase64 = r.result;  
+			  console.log(imgBase64);  
+			  callback(imgBase64);  
+		  }  
+		  r.readAsDataURL(fileObj);    //转成Base64格式  
+	  }  
+	
+		 // 对图片进行压缩  
+	  function compress(fileObj, callback) {   
+		  if ( typeof (FileReader) === 'undefined') {    
+			  console.log("当前浏览器内核不支持base64图标压缩");    
+			  //调用上传方式不压缩    
+			  directTurnIntoBase64(fileObj,callback);  
+		  } else {    
+			  try {      
+				  var reader = new FileReader();    
+				  reader.onload = function (e) {    
+					  var imagetwo = $('<img/>');    
+					  imagetwo.load(function(){    
+						  square = 700,   //定义画布的大小，也就是图片压缩之后的像素  
+						  canvas = document.createElement('canvas'),   
+						  context = canvas.getContext('2d'),  
+						  imageWidth = 0,    //压缩图片的大小  
+						  imageHeight = 0,   
+						  offsetX = 0,   
+						  offsetY = 0,  
+						  data = '';   
+	
+						  canvas.width = square;    
+						  canvas.height = square;   
+						  context.clearRect(0, 0, square, square);     
+	
+						  if (this.width > this.height) {    
+							  imageWidth = Math.round(square * this.width / this.height);    
+							  imageHeight = square;    
+							  offsetX = - Math.round((imageWidth - square) / 2);    
+						  } else {    
+							  imageHeight = Math.round(square * this.height / this.width);    
+							  imageWidth = square;    
+							  offsetY = - Math.round((imageHeight - square) / 2);    
+						  }    
+						  context.drawImage(this, offsetX, offsetY, imageWidth, imageHeight);    
+						  var data = canvas.toDataURL('image/jpeg');    
+						  //压缩完成执行回调    
+						   callback(data);    
+					  });    
+					  imagetwo.attr('src', e.target.result);    
+				  };    
+				  reader.readAsDataURL(fileObj);    
+			  }catch(e){    
+				  console.log("压缩失败!");    
+				  //调用直接上传方式  不压缩   
+				  directTurnIntoBase64(fileObj,callback);   
+			  }    
+		  }  
+	  }  
+  });  
+	
+   </script>
+   </literal>
+<script type="text/javascript">
+     $(document).ready(function(){
+ $(".left_add").height($(window).height()-60); 
+  $(".right_add").width($(window).width()-600);
+   $(".right_add").height($(window).height()-60);
+  $(".select").height($(window).height()-195); 
+  $("#select_style").height($(window).height()-220); 
+ //当文档窗口发生改变时 触发  
+    $(window).resize(function(){
+		  $(".right_add").width($(window).width()-600); 
+		 $(".left_add").height($(window).height()-60);
+		 $(".right_add").height($(window).height()-60); 
+		 $(".select").height($(window).height()-195); 
+		$("#select_style").height($(window).height()-220); 
+	});
+	 })
+	function checkLength(which) {
+	var maxChars = 500;
+	if(which.value.length > maxChars){
+	   layer.open({
+	   icon:2,
+	   title:'提示框',
+	   content:'您出入的字数超多限制!',	
+    });
+		// 超过限制的字数了就将 文本框中的内容按规定的字数 截取
+		which.value = which.value.substring(0,maxChars);
+		return false;
+	}else{
+		var curr = maxChars - which.value.length; // 减去 当前输入的
+		document.getElementById("sy").innerHTML = curr.toString();
+		return true;
+	}
+}
+
+     $(document).ready(function(){
+        var seach=$("#seach");
+		
+		seach.keyup(function(event){
+		//获取当前文本框的值
+        var seachText=$("#seach").val();
+		 var product="<div class='title_name'>产品名称</div><select multiple='multiple' id='select1' class='select'>";
+		  if(seachText!=""){			 
+			  $.each(user,function(id, item){				     				    
+                     //如果包含则为select赋值
+                     if(item.name.indexOf(seachText)!=-1 && item.status.indexOf(seachText)!=-1 ){
+                        product+="<option value="+item.id+">"+"("+item.status+")"+item.name+"</option>";
+                     }
+                  })								  
+				  $("#select_style").html(product);
+			  }
+			  else{					 
+				  $.each(user,function(id, item){
+					name = item.name; 
+					status= item.status;
+				   product+="<option value="+item.id+">"+"("+item.status+")"+item.name+"</option>";				   
+				  })
+                  $("#select_style").html(product);
+               }
+			   product+"</select>";
+		}) ;
+					
+			  var product="<div class='title_name'>产品名称</div>";
+				
+				 product+="<select multiple='multiple' id='select1' class='select'";
+				  $.each(user,function(id, item){
+					name = item.name;  
+					status= item.status;
+				   product+="<option value="+item.id+" title="+item.name+">"+"("+item.status+")"+item.name+"</option>";
+				   
+				  })
+				  product+"</select>";
+                  $("#select_style").html(product);
+			
+		      
+				 
+		         
+	})
+</script>
+<script type="text/javascript">
+function updateProgress(file) {
+	$('.progress-box .progress-bar > div').css('width', parseInt(file.percentUploaded) + '%');
+	$('.progress-box .progress-num > b').html(SWFUpload.speed.formatPercent(file.percentUploaded));
+	if(parseInt(file.percentUploaded) == 100) {
+		// 如果上传完成了
+		$('.progress-box').hide();
+	}
+}
+
+function initProgress() {
+	$('.progress-box').show();
+	$('.progress-box .progress-bar > div').css('width', '0%');
+	$('.progress-box .progress-num > b').html('0%');
+}
+
+function successAction(fileInfo) {
+	var up_path = fileInfo.path;
+	var up_width = fileInfo.width;
+	var up_height = fileInfo.height;
+	var _up_width,_up_height;
+	if(up_width > 120) {
+		_up_width = 120;
+		_up_height = _up_width*up_height/up_width;
+	}
+	$(".logobox .resizebox").css({width: _up_width, height: _up_height});
+	$(".logobox .resizebox > img").attr('src', up_path);
+	$(".logobox .resizebox > img").attr('width', _up_width);
+	$(".logobox .resizebox > img").attr('height', _up_height);
+}
+
+var swfImageUpload;
+$(document).ready(function() {
+	var settings = {
+		flash_url : "Widget/swfupload/swfupload.swf",
+		flash9_url : "Widget/swfupload/swfupload_fp9.swf",
+		upload_url: "upload.php",// 接受上传的地址
+		file_size_limit : "5MB",// 文件大小限制
+		file_types : "*.jpg;*.gif;*.png;*.jpeg;",// 限制文件类型
+		file_types_description : "图片",// 说明，自己定义
+		file_upload_limit : 100,
+		file_queue_limit : 0,
+		custom_settings : {},
+		debug: false,
+		// Button settings
+		button_image_url: "Widget/swfupload/upload-btn.png",
+		button_width: "95",
+		button_height: "30 ",
+		button_placeholder_id: 'uploadBtnHolder',
+		button_window_mode : SWFUpload.WINDOW_MODE.TRANSPARENT,
+		button_cursor : SWFUpload.CURSOR.HAND,
+		button_action: SWFUpload.BUTTON_ACTION.SELECT_FILE,
+		
+		moving_average_history_size: 40,
+		
+		// The event handler functions are defined in handlers.js
+		swfupload_preload_handler : preLoad,
+		swfupload_load_failed_handler : loadFailed,
+		file_queued_handler : fileQueued,
+		file_dialog_complete_handler: fileDialogComplete,
+		upload_start_handler : function (file) {
+			initProgress();
+			updateProgress(file);
+		},
+		upload_progress_handler : function(file, bytesComplete, bytesTotal) {
+			updateProgress(file);
+		},
+		upload_success_handler : function(file, data, response) {
+			// 上传成功后处理函数
+			var fileInfo = eval("(" + data + ")");
+			successAction(fileInfo);
+		},
+		upload_error_handler : function(file, errorCode, message) {
+			alert('上传发生了错误！');
+		},
+		file_queue_error_handler : function(file, errorCode, message) {
+			if(errorCode == -110) {
+				alert('您选择的文件太大了。');	
+			}
+		}
+	};
+	swfImageUpload = new SWFUpload(settings);
+});
+</script>

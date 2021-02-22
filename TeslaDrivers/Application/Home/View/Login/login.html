@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html>
+<head autoConcat="1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-transform " />
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0,minimal-ui">
+    <link rel="shortcut icon" href="__PUBLIC__/assets/images/51vui-favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/assets/css/login-reset.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/assets/css/login-style.css"/>
+    
+    <title>特友后台管理系统登录</title>
+    <script type="text/javascript" src="__PUBLIC__/assets/js/jquery-1.9.1.js"></script>
+    <script src="{{ url_for('static', filename='js/jquery-1.7.1.min.js') }}"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body class="login-register-content">
+<literal>
+<script type="text/javascript">
+$(document).ready(function(e) {
+    $(".aqhuan").click(function(e) {
+        if( $(".box-form").hasClass("loginAppShow") ){
+            $(".box-form").hide().removeClass("loginAppShow");
+            $(".app-hidden-novisibility").show().addClass("loginAppShow");
+            //getMedia();
+        }else{
+            $(".box-form").show().addClass("loginAppShow");
+            $(".app-hidden-novisibility").hide().removeClass("loginAppShow");
+            //closeMedia();
+        }
+    });
+});
+function selectNotAll(){//全选删除class
+ $('.goods_sale_property').each(function(i){
+    $(this).removeClass('goods_sale_property_checked');
+ }); 
+}
+
+function setTab(name,cursel,n,vuiTabsActive,loginItem){
+    for(i=1;i<=n;i++){
+        var menu=document.getElementById(name+i);
+        var con=document.getElementById("con_"+name+"_"+i);
+        menu.className=i==cursel?"vuiTabsActive loginItem":"loginItem";
+        con.style.display=i==cursel?"block":"none";
+    }
+}
+
+</script>
+</literal>
+
+
+<div class="header">
+    <div class="vui-grid">
+        <div class="logo">
+            <a  class="logo-img"  ></a>
+            <h1 class="login-title">欢迎登录</h1>
+        </div>
+    </div>
+</div>
+<div style="position: absolute;">
+  <!-- <video src="assets/images/1.mp4" controls='controls' loop='loop'></video> -->
+  <!---->
+  <video class="hero__asset hero-video" preload="auto" playsinline="" data-autoplay-desktop="true" data-autoplay-portrait="true" data-autoplay-mobile="true" muted="" loop="" poster="assets/images/1.mp4" data-poster-desktop="assets/images/1.mp4" data-poster-portrait="assets/images/1.mp4" data-poster-mobile="assets/images/1.mp4" data-src-desktop="assets/images/1.mp4" data-src-mobile="assets/images/1.mp4" data-src-portrait="assets/images/1.mp4" data-object-fit="true" src="__PUBLIC__/assets/images/1.mp4" autoplay="" data-loaded="true"></video>
+  
+	
+</div>
+
+           
+<div class="j-content content">
+<div class="vui-grid">
+<!--
+<a href="__PUBLIC__/javascript:;" class="mask"></a>
+-->
+<div class="box-warp">
+<div class="box-form-wrap">
+<!-- 账号密码登录 -->
+    <div class="box-form loginAppShow">
+        <div class="form-wrap">
+            <div class="login-tabs">
+                <div class="login-tab-con vui-tabs-content">
+                    <div class="j-login-content-item login-content-item login-form-content vui-tabs-panel login-con-panel login-content-active">
+                        <div class="login-header">
+
+                           		<div class="scan">
+                                    <span class="scan-tip">
+                                        <img src="__PUBLIC__/assets/images/icon-scan-tip.png" width="97px">
+                                    </span>
+									<!---->
+                                    <a class="login-by-item-app hiddenAccount aqhuan" href="javascript:;">
+                                        
+										<span class="scan-right">
+                                        <img src="__PUBLIC__/assets/images/icon-scan_ec.png" width="52px">
+                                        </span>
+                                    </a>
+                                </div>
+                               <div class="scan-title-sty" style="text-align: center;">账号密码登录</div>
+                        
+                        </div>
+                        <div class="j-login-form vui-tabs-content">
+                          
+                            <div class="vui-tabs-panel login-password-panel" id="con_one_1">
+                                <form id="login" class="login-form" action="" method="post">
+								
+                                    <div class="j-login-by login-by-username login-by-active">
+                                        <div class="vui-form-item vui-form-username">
+                                            <div class="visibilityWarning input-new" id="accent-pas-tip">
+                                                <label>
+												<img src="__PUBLIC__/assets/images/icon-username-input.png" width="37px" class="left"/>
+												
+												<input id="username" name="username" class="vui-inp-log username-input left vui-input j-vui-form-username" type="text" placeholder="用户名">
+												
+												</label>
+                                            </div>
+                                            <div class="visibilityError"></div>
+                                        </div>
+                                        <div class="vui-form-item vui-form-password">
+                                            <div class="input-new" id="accent-password-tip">
+                                                <label>
+												<img src="__PUBLIC__/assets/images/icon-password-input.png" width="37px" class="left"/>
+                                               
+											   <input id="password" name="password" class="vui-inp-log username-input left vui-input" type="password" placeholder="密码">
+											   
+											   </label>
+										   </div>
+                                            <div class="visibilityError"></div>
+                                        </div>
+										<p style="color:red">{$errorLogin | default="&nbsp;"}</p>
+                                        <div class="vui-form-item login-form-button">
+                                            <button class="vui-btn vui-btn-primary j-login-btn linear-gradient-btn" type="submit" id="login_btn" >立即登录</button>
+                                        </div>                            
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vui-tabs-panel login-con-panel"></div>
+                    <div class="vui-tabs-panel login-con-panel"></div>
+                </div>
+            </div>
+        </div>
+        <div class="login-other-ways-login login-other-ways">
+            <div class="authorize-login " >
+                <p class="clearfix authorize-login-title">
+                    <span class="authorize-login-title-right authorize-login-title-right-sty">
+                    </span>
+                </p>
+
+            </div>
+        </div>
+    </div>
+<!-- APP扫码登陆 -->
+    <div class="app-hidden-novisibility" id="con_tow_2">
+        <div class="scan">
+            <span class="scan-tip"><img src="__PUBLIC__/assets/images/icon-scan-account-tip.png" width="120px"></span>
+            <a class="login-by-item-app hiddenAppScan aqhuan" href="javascript:;">
+                <span class="scan-right"><img src="__PUBLIC__/assets/images/icon-app-scan.png" width="52px" ></span>
+            </a>
+        </div>
+        <div class="scan-content-sty">
+            <div class="scan-main-mar">
+                <div class="scan-title-sty">人脸识别登录</div>
+                <div id="app">
+                    <div class="login-app-code">
+                        <!--<p class=""><span class="scan-tip-mar"><img src="__PUBLIC__/assets/images/icon-square-scan.png" class="scan-tip-img">手机APP<br><span class="scan-tip-orange">扫码登录</span>方便快捷</span></p>-->
+                        <br/>
+                        <input type="button" title="开启摄像头" value="开启摄像头" onclick="getMedia()" />
+                        &nbsp;
+                        <input id="close" type="button" title="关闭摄像头" value="关闭摄像头" onclick="closeMedia()" />
+                        <!--<button id="close" onclick="closeMedia()">关闭</button>-->
+                        <div class="qrcode-wrap j-qrcode-wrap">
+                            <div class="qrcode-img j-qrcode-img">
+                                <!--<img id="appWeiImg" class="wei-img" src="__PUBLIC__/assets/images/icon-ewm.png"/>-->
+                                <br/>
+                                <video id="video" width="150px" height="150px" autoplay="autoplay" style="background:black;"></video>
+                                <!--<canvas id="canvas" width="150px" height="150px"></canvas>-->
+                                <div class="wei-51vui"></div>
+                            </div>
+                            <div class="qrcode-help j-qrcode-help app_help"></div>
+                        </div>
+                        <!--<div class="upload-link">-->
+                        <!--    <span>使用<a href="#">微信</a>扫码登录</span>-->
+                        <!--</div>-->
+                    </div>
+                    <div class="login-scan-fail">
+                        <div class="login-fail-main">
+                            <h3>
+                                <i></i>
+                                <span>登录失败</span>
+                            </h3>
+                            <p class="fail-note">请刷新二维码后重新扫描</p>
+                            <a href="javascript:;" class="btn-refresh-code" id="login-refresh">刷新二维码</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- 版权信息 -->
+<div class="vui-footer" >
+    <div class="grid vui-grid vui-footer-bd">
+        <div class="vui-footer-sitelink">
+            <a href="javascript:;" target="_blank">电话：0852-123456</a><span class="split">|</span>
+            <a href="javascript:;" target="_blank">邮箱：12345678@163.com</a><span class="split">|</span>
+            <a href="javascript:;" target="_blank">QQ：123456</a>
+        </div>
+        <p class="gray vui-footer-copyright">
+            **公司版权所有©2020-2030 &nbsp;&nbsp;&nbsp;<a rel="nofollow" href="javascript:;" target="_blank" rel="nofollow">ICP备案 12345678号</a>
+        </p>
+    </div>
+</div>
+
+<!--调用摄像头-->
+<literal>
+<script>
+ 
+    function closeMedia() {
+            var video = document.getElementById('video');
+            if (!video.srcObject) return
+            let stream = video.srcObject
+            let tracks = stream.getTracks();
+            tracks.forEach(track => {
+                track.stop()
+            })
+    }
+    //获得video摄像头区域
+    let video = document.getElementById("video");
+    function getMedia() {
+        let constraints = {
+            video: {width: 150, height: 150},
+            audio: true
+        };
+        /*
+        这里介绍新的方法:H5新媒体接口 navigator.mediaDevices.getUserMedia()
+        这个方法会提示用户是否允许媒体输入,(媒体输入主要包括相机,视频采集设备,屏幕共享服务,麦克风,A/D转换器等)
+        返回的是一个Promise对象。
+        如果用户同意使用权限,则会将 MediaStream对象作为resolve()的参数传给then()
+        如果用户拒绝使用权限,或者请求的媒体资源不可用,则会将 PermissionDeniedError作为reject()的参数传给catch()
+        */
+        let promise = navigator.mediaDevices.getUserMedia(constraints);
+        promise.then(function (MediaStream) {
+            video.srcObject = MediaStream;
+            video.play();
+        }).catch(function (PermissionDeniedError) {
+            console.log(PermissionDeniedError);
+        })
+    }
+    function takePhoto() {
+        //获得Canvas对象
+        let canvas = document.getElementById("canvas");
+        let ctx = canvas.getContext('2d');
+        ctx.drawImage(video, 0, 0, 150, 150);
+    }
+    //图片上传到服务器
+    //获取Canvas的编码
+    // var video = document.getElementById('video');
+    var canvas = document.getElementById('canvas');
+    var context = canvas.getContext('2d');
+    function uploadImage(){
+        canvas.width = 150;
+        canvas.height = 150;
+        context.drawImage(video, 0, 0, 150, 150);
+        var imgData = canvas.toDataURL("image/jpg");
+        imgData = imgData.replace(/^data:image\/(png|jpg);base64,/,"")
+        //上传到后台。
+        var uploadAjax = $.ajax({
+            type: "post",
+            //后端需要调用的地址
+            url:"/receiveImage/",
+            data: JSON.stringify({"imgData": imgData}),
+            contentType:"json/application",
+            //设置超时
+            timeout:10000,
+            async: true,
+            success: function (htmlVal) {
+                //成功后回调
+            },
+            error: function(data) {
+            },
+            //调用执行后调用的函数
+            complete: function (XMLHttpRequest, textStatus) {
+                if(textStatus == 'timeout'){
+                    uploadAjax.abort(); //取消请求
+                    //超时提示：请求超时，请重试
+                    alert("请求超时，请重试")
+                    //请求超时返回首页
+                    closeCard();
+                }
+            }
+        });
+    }
+</script>
+</literal>
+
+</body>
+</html>

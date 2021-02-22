@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/css.css" />
+    <title>Fortran语言</title>
+    <link rel="icon" href="./source/icon.png" type="image/x-icon" />
+
+</head>
+<style>
+    #bgImg {
+        height: 103%;
+        width: 101%;
+        background: url('./source/EniacBack.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: fixed;
+        overflow: scroll;
+        border: #000000;
+    }
+    
+    .outLabel {
+        align-self: center;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        background-color: rgba(121, 121, 121, 0.7);
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .textLabel {
+        align-self: center;
+        background: transparent;
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .titleLabel {
+        align-self: center;
+        background: transparent;
+        height: 100%;
+        width: 80%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 70px;
+        text-align: center;
+        color: #ffffff;
+        border: #000000;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
+    .siri {
+        width: 30%;
+        opacity: 0.7;
+    }
+    
+    .siriText {
+        font-size: 10px;
+    }
+    
+    #canvas {
+        position: fixed;
+        z-index: -2;
+    }
+    
+    .Lisptable {
+        width: 80%;
+    }
+    
+    .lastText {
+        width: 80%;
+        text-align: left;
+    }
+</style>
+
+
+
+<body bgcolor="#000000">
+
+    <canvas id="canvas" style="background:black" width=100% height=500%></canvas>
+    <script>
+        window.onload = function() {
+
+            //获取图形对象
+
+            var canvas = document.getElementById("canvas");
+
+            //获取图形的上下文
+
+            var context = canvas.getContext("2d");
+
+            //获取浏览器屏幕的宽度和高度
+
+            var W = window.innerWidth;
+
+            var H = window.innerHeight;
+
+            //设置canvas的宽度和高度
+
+            canvas.width = W;
+
+            canvas.height = H;
+
+            //每个文字的字体大小
+
+            var fontSize = 15;
+
+            //计算列
+
+            var colunms = Math.floor(W / fontSize);
+
+            //记录每列文字的y轴坐标
+
+            var s = [];
+
+            //给每一个文字初始化一个起始点的位置
+
+            for (var i = 0; i < colunms; i++) {
+
+                s.push(0);
+
+            }
+
+            //运动的文字
+
+            var str = "01abcdefghijklmnopqurstuvwxyz";
+
+            //4:fillText(str,x,y);原理就是去更改y的坐标位置
+
+            //绘画的函数
+
+            function draw() {
+
+                //让背景逐渐由透明到不透明
+
+                context.fillStyle = "rgba(0,0,0,0.05)";
+
+                context.fillRect(0, 0, W, H);
+
+                //给字体设置样式
+
+                //context.font = "700 "+fontSize+"px  微软雅黑";
+
+                context.font = fontSize + 'px arial';
+
+                //给字体添加颜色
+
+                context.fillStyle = "lightblue"; //随意更改字体颜色
+
+                //写入图形中
+
+                for (var i = 0; i < colunms; i++) {
+
+                    var index = Math.floor(Math.random() * str.length);
+
+                    var x = i * fontSize;
+
+                    var y = s[i] * fontSize;
+
+                    context.fillText(str[index], x, y);
+
+                    //如果要改变时间，肯定就是改变每次他的起点
+
+                    if (y >= canvas.height && Math.random() > 0.92) {
+
+                        s[i] = 0;
+
+                    }
+
+                    s[i]++;
+
+                }
+
+            };
+
+            function randColor() {
+
+                var r = Math.floor(Math.random() * 256);
+
+                var g = Math.floor(Math.random() * 256);
+
+                var b = Math.floor(Math.random() * 256);
+
+                return "rgb(" + r + "," + g + "," + b + ")";
+
+            }
+
+            draw();
+
+            setInterval(draw, 33);
+
+        };
+    </script>
+
+
+    <div class="music">
+        <audio muted src="./source/C418 - Alpha.mp3" autoplay="autoplay" controls="controls"> </audio>
+    </div>
+    <center>
+        <a href="./Al_events.html" style="color: floralwhite;">
+            <button class="back">返回上页</button>
+        </a>
+    </center>
+    <center>
+        <div class="outLabel">
+            <center>
+                <p class="titleLabel">
+                    Fortran语言
+                </p>
+                <p class="textLabel">
+                    <br><br>Fortran语言是为了满足数值计算的需求而发展出来的。1953年12月，IBM公司工程师约翰·巴科斯（J. Backus）因深深体会编写程序很困难，而写了一份备忘录给董事长斯伯特·赫德（Cuthbert Hurd），建议为IBM704系统设计全新的电脑语言以提升开发效率。当时IBM公司的顾问冯·诺伊曼强烈反对，因为他认为不切实际而且根本不必要。但赫德批准了这项计划。1957年，IBM公司开发出第一套FORTRAN语言，在IBM704电脑上运作。历史上第一支FORTRAN编程在马里兰州的西屋贝地斯核电厂试验。1957年4月20日星期五的下午，一位IBM软件工程师决定在电厂内编译第一支FORTRAN编程，当代码输入后，经过编译，打印机列出一行消息：“源程序错误……右侧括号后面没有逗号”，这让现场人员都感到讶异，修正这个错误后，打印机输出了正确结果。而西屋电气公司因此意外地成为FORTRAN的第一个商业用户。1958年推出FORTRAN
+                    Ⅱ，几年后又推出FORTRAN Ⅲ，1962年推出FORTRAN Ⅳ后，开始广泛被使用。
+
+                    <br><br>1966年，美国标准化协会制定了Fortran（x3.9-1966，也就是Fortran 66）和Fortran（x3.10-1966）标准。这时Fortran语言还不是结构化的程序设计语言。
+
+                    <br><br>1976年，美国标准化协会重新对Fortran（x3.9-1966）进行了评估，公布了新的Fortran标准，也就是Fortran 77。Fortran 77是具有结构化特性的编程语言。Fortran77在短时间内获取了巨大的成功，广泛地应用于科学和工程计算，几乎统治了数值计算领域。
+
+                    <br><br>1980年，Fortran 77被ISO接纳为国际标准。
+
+                    <br><br> 1991年发布的Fortran 90大幅改进了旧版Fortran的型式，加入了面向对象的观念与提供指针，并同时加强数组的功能。
+
+                    <br><br> Fortran后来又陆续推出Fortran 95、Fortran 2003、Fortran 2008等更新版本。
+                    <br><br><br><br>
+                    <center>
+                        <img src="./source/IBM_704_mainframe.gif" class="siri">
+                    </center>
+
+                    <center>
+                        <p class="siriText">IBM 704大型主机。</p>
+                    </center>
+                    <p class="lastText">
+                        <br> *FORTRAN的特性:
+                        <br><br> Fortran语言的最大特性是接近数学公式的自然描述，在计算机里具有很高的执行效率。
+                        <br> 易学，语法严谨。
+                        <br> 可以直接对矩阵和复数进行运算，这点Matlab有继承。
+                        <br> 自诞生以来广泛地应用于数值计算领域，积累了大量高效而可靠的源程序。
+                        <br> 很多专用的大型数值运算计算机针对Fortran做了优化。
+                        <br> 广泛地应用于并行计算和高性能计算领域。
+                        <br> Fortran 90，Fortran 95，Fortran 2003的相继推出使Fortran语言具备了现代高级编程语言的一些特性。
+                        <br> 其矩阵元素在记忆空间存储顺序是采用列优先（Column major），Matlab也承袭这点，目前最多使用的C语言则采用行优先（Row major）。
+                    </p>
+
+
+
+            </center>
+
+
+
+        </div>
+    </center>
+    <div class="footer">
+        <center>
+            Created by LC
+        </center>
+    </div>
+
+
+</body>
+
+</html>
