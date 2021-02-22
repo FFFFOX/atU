@@ -154,7 +154,7 @@ function setTab(name,cursel,n,vuiTabsActive,loginItem){
             </div>
         </div>
     </div>
-<!-- APP扫码登陆 -->
+<!-- 人脸识别登陆 -->
     <div class="app-hidden-novisibility" id="con_tow_2">
         <div class="scan">
             <span class="scan-tip"><img src="/TeslaDrivers/Public/assets/images/icon-scan-account-tip.png" width="120px"></span>
